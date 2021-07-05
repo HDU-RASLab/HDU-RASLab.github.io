@@ -390,6 +390,9 @@ p.paper-style {
     /*margin-left: 40px;*/
     color: red;
 }
+.paper-title > li{
+    color: red;
+}
 .vide-block-style {
     background: #00bcd6;
     border-radius: 5px;
@@ -432,7 +435,7 @@ h3.team-title {
 .memory-image-style {
     /*margin-left: 200px;*/
     /*margin-right: auto;*/
-    width: 680px;
+    width: 320px;
 
 }
 .about{
