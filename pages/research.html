@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- mobile apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //mobile apps -->
+	<!-- Custom Theme files -->
+	<link href="../css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link href="../css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link rel="stylesheet" href="../css/easy-responsive-tabs.css"><!-- tabs-css -->
+	<link rel="stylesheet" href="../css/lightbox.css"><!-- lightbox-css -->
+	<link href="../css/font-awesome.css" rel="stylesheet"> <!-- font-awesome icons -->
+	<!-- //Custom Theme files -->
+	<!-- js -->
+	<script src="../js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<!-- web-fonts -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Changa:200,300,400,500,600,700,800" rel="stylesheet">
+    <!-- //web-fonts -->
+    <title>Research & Videos</title>
+</head>
+<body>
+	<div  id="home" class="banner">
+		<div class="container">
+			<div class="wthree-header">
+				<div class="agileits-logo navbar-left">
+					<h1><a href="../index.html">R & S</a></h1>
+				</div>
+				<div class="navbar-right social-icons">
+					<ul>
+						<li><a href="https://github.com/xiejialong" target="view_window" class="fa fa-github icon-border facebook"> </a></li>
+						<li><a href="mailto:2315157813@qq.com" class="fa fa-envelope icon-border email"> </a></li>
+						<li><a href="tel:15968170605" class="fa fa-phone icon-border googleplus"> </a></li>
+<!--						<li><a href="#" class="fa fa-mobile icon-border rss"> </a></li>-->
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="w3ls-banner-text">
+				<h2 class="agileinfo">机器人与自主系统实验室</h2>
+				<h3 class="agileinfo border">Robotics and Autonomous Systems Lab (RAS Lab)</h3>
+				<h3 class="agileinfo"> @杭州电子科技大学</h3>
+				<p>leadership through innovation</p>
+			</div>
+
+			<!-- navigation -->
+			<div class="top-w3lnav">
+				<nav class="navbar navbar-default">
+					<div class="navbar-header w3l-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							Menu
+						</button>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-center w3l-effect">
+<!--							<li><a href="index.html" class="w3ls-active">Home</a></li>-->
+							<li><a href="../index.html" >About</a></li>
+							<li><a href="people.html" >Team</a></li>
+							<li><a href="#" >Research & Videos</a></li>
+
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+				</nav>
+			</div>
+			<!-- navigation -->
+		</div>
+	</div>
+
+	<div class="w3ls-section video-style" id="video">
+		<h3 class="video-title">实验展示</h3>
+
+		<div class="container">
+			<div class="col-xs-12 vide-block-style">
+				<h3 class="video-title">头势、语言共同控制小车</h3>
+				<p>
+					下面展示了...
+				</p>
+				<p align="center">
+					<video width="100%" controls autoplay>
+						  <source src="../images/videos/P3.mp4" type="video/ogg">
+					</video>
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+
+<!--以下是为了顺滑-->
+
+<!-- //footer -->
+<!-- Tooltip -->
+	<div class="tooltip-content">
+		<div class="modal fade features-modal" id="myModal"  tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-md">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h3 class="modal-title">R&S</h3>
+					</div>
+					<div class="modal-body">
+						<img src="../images/peoples/modal.jpg" class="img-responsive" alt="image">
+						<p>Fusce et congue nibh, ut ullamcorper magna. Donec ac massa tincidunt, fringilla sapien vel, tempus massa. Vestibulum felis leo, tincidunt sit amet tristique accumsan. In vitae dapibus metus. Donec nec massa non nulla mattis aliquam egestas et mi.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //Tooltip -->
+<!-- for-Clients -->
+	<script src="../js/owl.carousel.js"></script>
+	<link href="../css/owl.carousel.css" rel="stylesheet">
+			<!-- requried-jsfiles-for owl -->
+							        <script>
+									    $(document).ready(function() {
+									      $("#owl-demo2").owlCarousel({
+									        items : 1,
+									        lazyLoad : false,
+									        autoPlay : true,
+									        navigation : false,
+									        navigationText :  false,
+									        pagination : true,
+									      });
+									    });
+									  </script>
+			<!-- //requried-jsfiles-for owl -->
+	<script>
+		$(function(){
+			function random(owlSelector){
+				owlSelector.children().sort(function(){
+					return Math.round(Math.random()) - 0.5;
+				}).each(function(){
+					$(this).appendTo(owlSelector);
+				});
+			}
+
+			$('#owl-demo').owlCarousel({
+
+				beforeInit: function(elem)
+				{
+					random(elem);
+				},
+				autoPlay:3000,
+				items : 1,
+
+			});
+		});
+	</script>
+
+	<!-- //for-Clients -->
+	<script src="../js/SmoothScroll.min.js"></script>
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="../js/move-top.js"></script>
+	<script type="text/javascript" src="../js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+			};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+	<!-- responsive-tabs -->
+	<script src="../js/easy-responsive-tabs.js"></script>
+	<script>
+		$(document).ready(function () {
+		$('#verticalTab').easyResponsiveTabs({
+		type: 'vertical',
+		width: 'auto',
+		fit: true
+		});
+		});
+	</script>
+	<!-- //responsive-tabs -->
+	<!-- //smooth-scrolling-of-move-up -->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/bootstrap.js"></script>
+</body>
+</html>
