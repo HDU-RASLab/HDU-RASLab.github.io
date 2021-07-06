@@ -15,6 +15,29 @@ h1,h2,h3,h4,h5,h6{
 	margin:0;	
 	font-family: 'Changa', sans-serif;
 }
+.dorpccc{
+
+position: relative;
+
+  display: inline-block;
+
+}
+.dorpccc_con{
+
+  display: none;
+
+  position: absolute;
+
+  /*background-color: #f9f9f9;*/
+
+  min-width: 160px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  padding: 12px 16px;
+
+}
+.dorpccc:hover .dorpccc_con{display:block;}
 p{
 	margin:0;
 	line-height:1.5;
@@ -29,11 +52,11 @@ body a:hover{
 }
 /*-- banner --*/
 .banner{
-	background: url(../images/peoples/banner.jpg)no-repeat 0px 0px;
+	background: url(../images/banner.jpg)no-repeat 0px 0px;
 	-webkit-background-size:cover;
 	background-size:cover;
 	-moz-background-size:cover;
-	min-height:794px;
+	min-height:500px;
 }
 .wthree-header {
     padding: 2em 0;
@@ -175,8 +198,9 @@ div#bs-example-navbar-collapse-1 {
 .w3l-effect a.active::after {
 	opacity: 1;
 }
+/*navigation width each block*/
 .navbar-nav > li {
-    width: 33.33%;
+    width: 20%;
     float: left;
 }
 .w3l-effect a:hover::after,.w3ls-active:after {
@@ -204,8 +228,8 @@ div#bs-example-navbar-collapse-1 {
 }
 /*-- //top-w3lnav --*/
 .w3ls-banner-text {
-    width: 70%;
-    margin: 10em auto;
+    width: 75%;
+    margin: 8em auto;
 	text-align:center;
 }
 h2.agileinfo {
@@ -213,7 +237,7 @@ h2.agileinfo {
     color: #fff;
     font-size: 5em;
     letter-spacing: 2px;
-    padding: 1em 0 0;
+    /*padding: 1em 0 0;*/
     text-shadow: 5px 0px 17px rgba(0, 77, 143, 0.52);
     /*border-bottom: 1px solid #fff;*/
 }
@@ -223,7 +247,7 @@ h3.agileinfo {
     font-size: 2em;
     letter-spacing: 2px;
     padding: 0.5em 0 0;
-    text-align:left;
+    text-align:center;
     text-shadow: 5px 0px 17px rgba(0, 77, 143, 0.52);
     /*border-bottom: 1px solid #fff;*/
 }
@@ -369,14 +393,51 @@ h3.w3ls-title {
     text-transform: capitalize;
 	/*margin-bottom:1em;*/
 }
-h3.mission-title {
+h3.mission-title{
     color: #00539c;
     font-size: 2.5em;
     text-transform: capitalize;
-	margin-bottom:1em;
+	margin-bottom:10px;
+    margin-top: 1em;
+}
+h4.mission-title {
+    color: gray;
+    font-size: 20px;
+    text-transform: capitalize;
+	margin-bottom:10px;
+    margin-top: 0.5em;
+}
+.image-content {
+    margin-top: 1em;
+    color: gray;
+    font-size: 18px;
+    /*margin-left: 10px;*/
+    /*margin-right: 10px;*/
+}
+.image-content h3 {
+    margin: 10px 5px 5px 5px;
+    color: #00539c;
+    font-size: 25px;
+
+
+}
+.image-content p{
+    margin: 5px;
+    color: gray;
+    font-size: 18px;
+    /*text-align-last:justify;*/
+
+    text-align:justify;
+
+    text-justify:distribute-all-lines;
+}
+.years-style
+{
     margin-top: 5em;
 }
-
+.years-style a{
+    font-size: 20px;
+}
 
 p.paper-style {
     margin-top: 10px;
@@ -384,14 +445,17 @@ p.paper-style {
     margin-left: 40px;
     color: red;
 }
-.paper-title {
-    margin-top: 10px;
+.paper-title h3{
+    margin-top: 20px;
     text-align: left;
     /*margin-left: 40px;*/
-    color: red;
+    color: darkblue;
+    font-size: 30px;
 }
-.paper-title > li{
-    color: red;
+.paper-title > ol > li{
+    color: black;
+    font-size: 18px;
+    margin:10px 0 10px;
 }
 .vide-block-style {
     background: #00bcd6;
@@ -425,17 +489,22 @@ h3.video-title
     background: white;
 }
 h3.team-title {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    height:20%;
+    width: 100%;
     color: black;
-    font-size: 2.5em;
-    text-transform: capitalize;
-    padding-top: 20px;
-    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .memory-image-style {
     /*margin-left: 200px;*/
     /*margin-right: auto;*/
     width: 320px;
+    border-radius: 2em;
 
 }
 .about{
@@ -489,7 +558,9 @@ div#lab h3 {
     color: #fff;
 }
 .gallery {
-    background: #00bcd6;
+    background: lightgrey;
+    margin-bottom: 2em;
+    border-radius: 2em;
 }
 
 .grid {
@@ -521,7 +592,7 @@ div#lab h3 {
 	padding: 2em;
 	color:rgba(0, 0, 0, 0.5);
 	text-transform: capitalize;
-	font-size: 1.25em;
+	font-size: 2em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 } 
@@ -606,7 +677,7 @@ div#lab h3 {
 /*-- //gallery --*/
 /*-- team --*/
 .team{
-	background:url(../images/peoples/banner.jpg) no-repeat 0px 0px;/*--更换主题照片--*/
+	background:url(../images/banner.jpg) no-repeat 0px 0px;/*--更换主题照片--*/
 	background-size:cover;
 }
 
@@ -617,8 +688,8 @@ div#lab h3 {
 .agileits-team-grid1 h3 {
     color: #fff;
     padding: 0.5em 0.5em;
-    font-size: 3em;
-    text-align: center;
+    font-size: 2em;
+    text-align: left;
 }
 .team-info{
     position: relative;
@@ -629,7 +700,70 @@ div#lab h3 {
 }
 .team-info img{
 	width:100%;
+    padding: 20px 20px 10px 20px;
+	background: #FFFFFF;
 }
+.slide-info
+{
+    position: relative;
+    overflow: hidden;
+}
+.slide-info img{
+    width:100%;
+    padding: 20px 20px 10px 20px;
+	background: #FFFFFF;
+    /*border: 1px solid #B8B8B8;*/
+}
+.slide-border {
+    border: 1px solid #B8B8B8;
+    border-radius: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.image-style1 {
+	/*margin: 20px 20px 10px 10px;*/
+	padding: 10px 20px 20px 20px;
+	background: #FFFFFF;
+    width: 100%;
+	/*border: 1px solid #B8B8B8;*/
+}
+.image-info
+{
+    padding-left: 20px ;
+    padding-right: 20px;
+
+}
+.image-info h4{
+    font-size: 25px;
+    font-weight: 550;
+}
+.image-info p{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.people-info
+{
+    padding-left: 20px ;
+    padding-right: 20px;
+    font-size: 18px;
+}
+.people-name{
+    color: red;
+    font-weight: 550;
+
+}
+.people-situation{
+    color: black;
+    font-weight: 550;
+
+}
+.people-major {
+    color: black;
+
+}
+
 .team-caption h4{
     margin:0;
     color: #000;
@@ -650,6 +784,10 @@ div#lab h3 {
     padding-left: 15px;
     height:20%;
     width: 100%;
+}
+.team_title_style h3 {
+    font-size: 40px;
+    color: darkblue;
 }
 .team-caption {
     padding: 1em;
@@ -688,12 +826,12 @@ div#lab h3 {
 .team-info:before {
     background-color: rgba(0,0,0,0.85);
     border: 3px solid #00bcd6;
-    bottom: 0;
+    bottom: 0px;
     content: "";
     display: inline-block;
-    left: 0;
+    left: 0px;
     position: absolute;
-    right: 0;
+    right: 0px;
     top: 0;
     opacity: 0;
     -webkit-transition: all 0.5s;
@@ -891,7 +1029,7 @@ form.agileits-form {
 	color:#000;
 }
 h3.w3ls-title.contact-w3ls {
-    margin-bottom: 2em;
+    margin-top: 1em;
 }
 /*-- //contact --*/
 .agileinfo-copyright {
@@ -942,6 +1080,9 @@ a.agile-more:hover{
 	-ms-transform: scale(.9);
 	transform: scale(.9);
 }
+.w3l-effect > li > a{
+    font-size: 25px;
+}
 /*-- //tooltip --*/
 /* -- Responsive code -- */
 @media screen and (max-width: 1440px){
@@ -986,11 +1127,11 @@ a.agile-more:hover{
 		margin-bottom:2em;
 	}
 	.banner {
-		min-height: 710px;
+		min-height: 480px;
 	}
 	.w3ls-banner-text {
 		width: 70%;
-		margin: 7em auto;
+		margin: 6em auto;
 	}
 	.w3ls-bb-right p {
 		width: 80%;
@@ -1003,7 +1144,7 @@ a.agile-more:hover{
 @media screen and (max-width: 1080px){
 	.w3ls-banner-text {
 		width: 73%;
-		margin: 5em auto;
+		margin: 4em auto;
 	}
 	h2.agileinfo {
        font-size: 4.5em;
@@ -1047,7 +1188,7 @@ a.agile-more:hover{
 		width: 90%;
 	}
 	.banner {
-		min-height: 590px;
+		min-height: 450px;
 	}
 	.contact-form {
 		width: 35%;
@@ -1059,6 +1200,9 @@ a.agile-more:hover{
 	form.agileits-form {
 		padding: 2em 4em 3em;
 	}
+    .w3l-effect > li　> a {
+        font-size: 20px;
+    }
 }
 @media screen and (max-width: 1050px){
 	.wthree-banner-bottom {
@@ -1066,7 +1210,7 @@ a.agile-more:hover{
 		left: 5%;
 	}
 	.banner {
-		min-height: 650px;
+		min-height: 420px;
 	}
 	.agile-section {
 		width: 82%;
@@ -1096,13 +1240,13 @@ a.agile-more:hover{
 @media screen and (max-width: 1024px){
 	.w3ls-banner-text {
 		width: 73%;
-		margin: 6em auto 6em;
+		margin: 4em auto 4em;
 	}
 	.agile-section {
 		width: 85%;
 	}
 	.banner {
-		min-height: 600px;
+		min-height: 400px;
 	}
 	.w3ls-bb-right p {
 		width: 72%;
@@ -1137,7 +1281,7 @@ a.agile-more:hover{
 }
 @media screen and (max-width: 991px){
 	.banner {
-		min-height: 570px;
+		min-height: 380px;
 	}
 	.wthree-banner-bottom {
 		width: 98%;
@@ -1239,10 +1383,13 @@ text-align:center;
 	h3.w3ls-title.contact-w3ls {
 		margin-bottom: 0.5em;
 	}
+     .w3l-effect > li　> a {
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 800px){
 	.banner {
-		min-height: 540px;
+		min-height: 360px;
 	}
 	.w3l-bbg1::before,.w3l-bbg1::after{
 		border-width: 1px 109px 40px;
@@ -1265,6 +1412,9 @@ text-align:center;
 	.agile-slide p {
 		font-size: 1em;
 	}
+    .w3l-effect > li > a{
+        font-size: 20px;
+    }
 }
 @media screen and (max-width: 768px){
 	h2.agileinfo {
@@ -1379,6 +1529,9 @@ text-align:center;
 	.w3l-effect a {
 		height: 37px;
 	}
+    .w3l-effect > li > a{
+        font-size: 15px;
+    }
 	.w3l-effect a:hover::after {
 		border-right: 116px solid transparent;
 		top: -24px;
@@ -1465,7 +1618,7 @@ text-align:center;
 		border-right: 100px solid transparent;
 	}
 	.banner {
-		min-height: 483px;
+		min-height: 350px;
 	}
 	div#contact {
 		padding-top: 1em;
@@ -1473,13 +1626,13 @@ text-align:center;
 }
 @media screen and (max-width: 640px){
 	.banner {
-		min-height: 480px;
+		min-height: 330px;
 	}
 	.w3ls-banner-text {
 		width: 86%;
 	}
 	.banner {
-		min-height: 495px;
+		min-height: 310px;
 	}
 	.w3ls-banner-text {
 		width: 93%;
@@ -1567,7 +1720,7 @@ text-align:center;
 }
 @media screen and (max-width: 568px){
 	.banner {
-		min-height: 450px;
+		min-height: 300px;
 	}
 	h2.agileinfo {
 		font-size: 3.2em;
@@ -1706,7 +1859,7 @@ text-align:center;
 	}
 	.w3ls-banner-text {
 		width: 90%;
-		margin: 3em auto 3em;
+		margin: 1.5em auto 1.5em;
 	}
 	.wthree-banner-bottom {
 		width: 77%;
@@ -1808,4 +1961,8 @@ text-align:center;
 		font-size: 2.2em;
 	}
 }
+
+
+
+
 /* -- //Responsive code -- */

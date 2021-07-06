@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>banner</title>
+    <!-- mobile apps -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- //mobile apps -->
+    <!-- Custom Theme files -->
+    <link href="../css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="../css/easy-responsive-tabs.css"><!-- tabs-css -->
+    <link rel="stylesheet" href="../css/lightbox.css"><!-- lightbox-css -->
+    <link href="../css/font-awesome.css" rel="stylesheet"> <!-- font-awesome icons -->
+    <!-- //Custom Theme files -->
+    <!-- js -->
+    <script src="../js/jquery-2.2.3.min.js"></script>
+    <!-- //js -->
+    <!-- web-fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Changa:200,300,400,500,600,700,800" rel="stylesheet">
+    <!-- //web-fonts -->
+</head>
+<body>
+<div id="home" class="banner">
+		<div class="container">
+			<div class="wthree-header">
+				<div class="agileits-logo navbar-left">
+					<h1><a href="index.html">RAS Lab</a></h1>
+				</div>
+				<div class="navbar-right social-icons">
+					<ul>
+						<li><a href="https://github.com/HDU-RASLab" target="view_window" class="fa fa-github icon-border facebook"> </a></li>
+						<li><a href="mailto:231515xxxx@qq.com" class="fa fa-envelope icon-border email"> </a></li>
+						<li><a href="tel:1596817xxxx" class="fa fa-phone icon-border googleplus"> </a></li>
+<!--						<li><a href="#" class="fa fa-mobile icon-border rss"> </a></li>-->
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="w3ls-banner-text">
+				<h2 class="agileinfo">机器人与自主系统实验室</h2>
+				<h3 class="agileinfo border">Robotics and Autonomous Systems Lab (RAS Lab)</h3>
+				<h3 class="agileinfo"> @HDU-ITMO Joint Institute, Hangzhou Dianzi University</h3>
+<!--				<p>leadership through innovation</p>-->
+			</div>
+
+			<!-- navigation -->
+			<div class="top-w3lnav">
+				<nav class="navbar navbar-default">
+					<div class="navbar-header w3l-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							Menu
+						</button>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-center w3l-effect">
+<!--							<li><a href="index.html" class="w3ls-active">Home</a></li>-->
+							<li><a href="http://localhost:63342/HDU-RASLab.github.io\index.html">Home</a></li>
+							<li><a href="http://localhost:63342/HDU-RASLab.github.io\pages\people.html" >People</a></li>
+							<li><a href="http://localhost:63342/HDU-RASLab.github.io\pages\research.html" >Research</a></li>
+							<li><a href="http://localhost:63342/HDU-RASLab.github.io\pages\publication.html" >Publication</a></li>
+							<li><a href="http://localhost:63342/HDU-RASLab.github.io\pages\AboutUs.html">About Us</a></li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+				</nav>
+			</div>
+			<!-- navigation -->
+		</div>
+	</div>
+
+
+<!--以下是为了顺滑-->
+
+
+	<script src="../js/SmoothScroll.min.js"></script>
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="../js/move-top.js"></script>
+	<script type="text/javascript" src="../js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+			};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	</script>
+	<!-- responsive-tabs -->
+	<script src="../js/easy-responsive-tabs.js"></script>
+	<script>
+		$(document).ready(function () {
+		$('#verticalTab').easyResponsiveTabs({
+		type: 'vertical',
+		width: 'auto',
+		fit: true
+		});
+		});
+	</script>
+	<!-- //responsive-tabs -->
+	<!-- //smooth-scrolling-of-move-up -->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/bootstrap.js"></script>
+</body>
+</html>

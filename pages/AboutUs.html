@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <!-- mobile apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- //mobile apps -->
+    <!-- Custom Theme files -->
+    <link href="../css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="../css/easy-responsive-tabs.css"><!-- tabs-css -->
+    <link rel="stylesheet" href="../css/lightbox.css"><!-- lightbox-css -->
+    <link href="../css/font-awesome.css" rel="stylesheet"> <!-- font-awesome icons -->
+    <!-- //Custom Theme files -->
+    <!-- js -->
+    <script src="../js/jquery-2.2.3.min.js"></script>
+    <!-- //js -->
+    <!-- web-fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Changa:200,300,400,500,600,700,800" rel="stylesheet">
+    <!-- //web-fonts -->
+</head>
+<body>
+	<div id="banner"></div>
+	<script>
+				$("#banner").load("banner.html");
+	</script>
+
+
+    <div class="w3ls-section" id="Contact US">
+        <div class="container">
+			<div class="w3ls-section " id="memory">
+				<div class="container">
+                    <h3 class="w3ls-title contact-w3ls">Enjoyable Life</h3>
+					<div id="owl-demo" class="owl-carousel">
+						<div class="team-info">
+								<img src="../images/memorys/1.jpg" alt="" class="memory-image-style">
+						</div>
+
+						<div class="team-info">
+
+							<img src="../images/memorys/2.jpg" alt="" class="memory-image-style">
+
+							</div>
+						<div class="team-info">
+
+							<img src="../images/memorys/3.jpg" alt="" class="memory-image-style">
+
+							</div>
+						<div class="team-info">
+
+							<img src="../images/memorys/4.jpg" alt="" class="memory-image-style">
+
+							</div>
+							<div class="team-info">
+
+							<img src="../images/memorys/5.jpg" alt="" class="memory-image-style">
+
+								</div>
+							<div class="team-info">
+
+							<img src="../images/memorys/6.jpg" alt="" class="memory-image-style">
+
+								</div>
+							<div class="team-info">
+								<img src="../images/memorys/7.jpg" alt="" class="memory-image-style">
+							</div>
+							<div class="team-info">
+
+								<img src="../images/memorys/8.jpg" alt="" class="memory-image-style">
+							</div>
+							<div class="team-info">
+
+							<img src="../images/memorys/9.jpg" alt="" class="memory-image-style">
+
+								</div>
+							<div class="team-info">
+
+							<img src="../images/memorys/10.jpg" alt="" class="memory-image-style">
+
+								</div>
+							<div class="team-info">
+
+							<img src="../images/memorys/11.jpg" alt="" class="memory-image-style">
+
+								</div>
+							<div class="team-info">
+								<img src="../images/memorys/12.jpg" alt="" class="memory-image-style">
+							</div>
+
+							<div class="team-info">
+								<img src="../images/memorys/13.jpg" alt="" class="memory-image-style">
+							</div>
+
+					</div>
+				</div>
+			</div>
+
+
+		<!-- contact -->
+			<div class="w3ls-section w3-contact" id="contact">
+<!--				<div class="container"></div>-->
+                <div class="col-lg-12">
+                    <h3 class="w3ls-title contact-w3ls">contact us</h3>
+                    <div class="address">
+								<h5>Address:</h5>
+								<p>HDU-ITMO Joint Institute, Hangzhou Dianzi University, Hangzhou, China, 310018</p>
+                    </div>
+                    <div class="address">
+								<h5>Email:</h5>
+								<a href="mailto:billow@hdu.edu.cn">2315157813@qq.com</a>
+                    </div>
+                </div>
+			</div>
+			<!-- contact -->
+        </div>
+    </div>
+
+    <div class="agileinfo-copyright text-center">
+        <p> © Welcome to visit RASLab. </p>
+    </div>
+
+	<script src="../js/owl.carousel.js"></script>
+	<link href="../css/owl.carousel.css" rel="stylesheet">
+    <script>
+		$(function(){
+			function random(owlSelector){
+				owlSelector.children().sort(function(){
+					return Math.round(Math.random()) - 0.5;
+				}).each(function(){
+					$(this).appendTo(owlSelector);
+				});
+			}
+
+			$('#owl-demo').owlCarousel({
+
+				beforeInit: function(elem)
+				{
+					random(elem);
+				},
+				autoPlay:2500,
+				items : 2,
+			});
+		});
+	</script>
+</body>
+</html>

@@ -7,7 +7,7 @@ p {
 
 .resp-tabs-list li {
   font-weight: 600;
-  font-size: 13px;
+  font-size: 25px;
   display: inline-block;
   padding: 13px 15px;
   margin: 0;
@@ -79,6 +79,7 @@ h5.resp-tab-title:last-child {
   float: left;
   width: 100%;
 }
+
 .resp-vtabs .resp-tabs-list li {
     display: inline-block;
     padding: 1.5em 1.7em 1.5em 0.2em !important;
