@@ -1125,7 +1125,7 @@ a.agile-more:hover{
     height: auto;
     text-align: center;
     /*line-height: ;*/
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     background-color: #2f3e45;
     margin: 0 10px 0 10px;
@@ -1157,10 +1157,7 @@ a.agile-more:hover{
 	.test {
 		padding-bottom: 0;
 	}
-    .drop-down-content li a{
-        font-size: 15px;
-        width: 120px;
-    }
+
 }
 @media screen and (max-width: 1366px){
 	.wthree-banner-bottom {
@@ -1170,11 +1167,7 @@ a.agile-more:hover{
     .agile-section {
 		width: 63%;
 	}
-    .drop-down-content li a {
-        margin:0;
-        width: 117px;
-        font-size: 15px;
-    }
+
 }
 @media screen and (max-width: 1280px){
 	.wthree-banner-bottom {
@@ -1195,7 +1188,7 @@ a.agile-more:hover{
 	}
 	.w3ls-banner-text {
 		width: 70%;
-		margin: 6em auto;
+		margin: 5em auto;
 	}
 	.w3ls-bb-right p {
 		width: 80%;
@@ -1204,9 +1197,11 @@ a.agile-more:hover{
 		width: 32%;
 		left: 11%;
 	}
-    .drop-down-content li a {
-        margin:0;
-        width: 114px;
+
+}
+@media screen and (max-width: 1200px){
+        .drop-down-content li a{
+        width: 166px;
         font-size: 15px;
     }
 }
@@ -1273,8 +1268,7 @@ a.agile-more:hover{
         font-size: 20px;
     }
     .drop-down-content li a{
-        width: 111px;
-        font-size: 13px;
+        width: 155px;
     }
 }
 @media screen and (max-width: 1050px){
@@ -1309,10 +1303,7 @@ a.agile-more:hover{
 	h3.w3ls-title.contact-w3ls {
 		margin-bottom: 1em;
 	}
-    .drop-down-content li a{
-        width: 108px;
-        font-size: 13px;
-    }
+
 }
 @media screen and (max-width: 1024px){
 	.w3ls-banner-text {
@@ -1354,11 +1345,7 @@ a.agile-more:hover{
 	.w3layouts_vertical_tab p {
 		font-size: 1em;
 	}
-    .drop-down-content li a{
-        width: 105px;
-            font-size: 13px;
 
-    }
 	
 }
 @media screen and (max-width: 991px){
@@ -1413,7 +1400,7 @@ a.agile-more:hover{
 	}
 	.address {
 		margin: 1em 0 0;
-text-align:center;
+        text-align:center;
 	}
 	.agile-section {
 		width: 87%;
@@ -1434,9 +1421,8 @@ text-align:center;
 		bottom: 78px;
 	}
     .drop-down-content li a {
-        margin:0;
-        width: 102px;
-        font-size: 13px;
+        width: 124px;
+        font-size: 14px;
     }
 }
 @media screen and (max-width: 900px){
@@ -1474,12 +1460,7 @@ text-align:center;
         font-size: 18px;
     }
 
-    .drop-down-content li a{
 
-            width: 99px;
-        font-size: 11px;
-
-        }
 }
 @media screen and (max-width: 800px){
 	.banner {
@@ -1509,10 +1490,7 @@ text-align:center;
     .w3l-effect > li > a{
         font-size: 20px;
     }
-        .drop-down-content li a{
-            width: 96px;
-            font-size: 11px;
-        }
+
 }
 @media screen and (max-width: 768px){
 	h2.agileinfo {
@@ -1565,11 +1543,7 @@ text-align:center;
 	.w3_agileits-tabgrid1.agile-text {
 		min-height: 240px;
 	}
-    .drop-down-content li a {
-        margin:0;
-        width: 93px;
-        font-size: 11px;
-    }
+
 }
 @media screen and (max-width: 767px){
 	.navbar-default .navbar-toggle {
@@ -1666,8 +1640,8 @@ text-align:center;
 
     .drop-down-content li a{
         margin: 0;
-        font-size: 10px;
-            width: 90px;
+        font-size: 12px;
+            width: 112px;
         }
 }
 @media screen and (max-width: 736px){
@@ -1687,9 +1661,7 @@ text-align:center;
 		bottom: 85px;
 	}
     .drop-down-content li a {
-        margin:0;
-        width: 87px;
-        font-size: 10px;
+        width: 101px;
     }
 }
 @media screen and (max-width: 667px){
@@ -1739,11 +1711,9 @@ text-align:center;
 	div#contact {
 		padding-top: 1em;
 	}
-        .drop-down-content li a{
-            margin: 0;
-            font-size: 10px;
-            width:84px;
-        }
+    .drop-down-content li a{
+        width:97px;
+    }
 }
 @media screen and (max-width: 640px){
 	.banner {
@@ -1810,9 +1780,7 @@ text-align:center;
 		font-size: 1.5em;
 	}
     .drop-down-content li a {
-        margin:0;
-        width: 81px;
-        font-size: 10px;
+        width: 91px;
     }
 
 }
@@ -1845,9 +1813,7 @@ text-align:center;
 		border-right: 116px solid transparent;
 	}
     .drop-down-content li a {
-        margin:0;
-        width: 78px;
-        font-size: 10px;
+        width: 113px;
     }
 
 }
@@ -1878,9 +1844,7 @@ text-align:center;
 		border-right: 109px solid transparent;
 	}
         .drop-down-content li a {
-        margin:0;
-        width: 75px;
-        font-size: 10px;
+        width: 94.5px;
     }
 }
 @media screen and (max-width: 480px){
@@ -1924,9 +1888,7 @@ text-align:center;
 		border-right: 91px solid transparent;
 	}
     .drop-down-content li a {
-        margin:0;
-        width: 72px;
-        font-size: 10px;
+        width: 91px;
     }
 }
 @media screen and (max-width: 414px){
@@ -1981,9 +1943,7 @@ text-align:center;
 		padding: 5em 2em 1.9em;
 	}
     .drop-down-content li a {
-        margin:0;
-        width: 69px;
-        font-size: 10px;
+        width: 84px;
     }
 }
 @media screen and (max-width: 384px){
@@ -2047,9 +2007,7 @@ text-align:center;
 		padding: 1em;
 	}
     .drop-down-content li a {
-        margin:0;
-        width: 66px;
-        font-size: 10px;
+        width: 83px;
     }
 }
 @media screen and (max-width: 375px){
@@ -2067,9 +2025,7 @@ text-align:center;
 		border-width: 1px 137px 40px;
 	}
     .drop-down-content li a {
-        margin:0;
-        width: 63px;
-        font-size: 10px;
+        width: 81px;
     }
 }
 @media screen and (max-width: 320px){
@@ -2118,11 +2074,7 @@ text-align:center;
 	h3.w3ls-title {
 		font-size: 2.2em;
 	}
-    .drop-down-content li a {
-        margin:0;
-        width: 60px;
-        font-size: 10px;
-    }
+
 }
 
 
