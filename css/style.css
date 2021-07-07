@@ -1157,10 +1157,10 @@ a.agile-more:hover{
 	.test {
 		padding-bottom: 0;
 	}
-        .drop-down-content li a{
-            font-size: 18px;
-            width: 170px;
-        }
+    .drop-down-content li a{
+        font-size: 15px;
+        width: 120px;
+    }
 }
 @media screen and (max-width: 1366px){
 	.wthree-banner-bottom {
@@ -1170,6 +1170,11 @@ a.agile-more:hover{
     .agile-section {
 		width: 63%;
 	}
+    .drop-down-content li a {
+        margin:0;
+        width: 117px;
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 1280px){
 	.wthree-banner-bottom {
@@ -1201,8 +1206,8 @@ a.agile-more:hover{
 	}
     .drop-down-content li a {
         margin:0;
-        width: 100px;
-        font-size: 17px;
+        width: 114px;
+        font-size: 15px;
     }
 }
 @media screen and (max-width: 1080px){
@@ -1268,8 +1273,8 @@ a.agile-more:hover{
         font-size: 20px;
     }
     .drop-down-content li a{
-        width: 150px;
-        font-size: 17px;
+        width: 111px;
+        font-size: 13px;
     }
 }
 @media screen and (max-width: 1050px){
@@ -1305,8 +1310,8 @@ a.agile-more:hover{
 		margin-bottom: 1em;
 	}
     .drop-down-content li a{
-        width: 130px;
-        font-size: 17px;
+        width: 108px;
+        font-size: 13px;
     }
 }
 @media screen and (max-width: 1024px){
@@ -1350,8 +1355,8 @@ a.agile-more:hover{
 		font-size: 1em;
 	}
     .drop-down-content li a{
-        width: 120px;
-            font-size: 17px;
+        width: 105px;
+            font-size: 13px;
 
     }
 	
@@ -1430,8 +1435,8 @@ text-align:center;
 	}
     .drop-down-content li a {
         margin:0;
-        width: 100px;
-        font-size: 17px;
+        width: 102px;
+        font-size: 13px;
     }
 }
 @media screen and (max-width: 900px){
@@ -1471,8 +1476,8 @@ text-align:center;
 
     .drop-down-content li a{
 
-            width: 120px;
-        font-size: 17px;
+            width: 99px;
+        font-size: 11px;
 
         }
 }
@@ -1505,8 +1510,8 @@ text-align:center;
         font-size: 20px;
     }
         .drop-down-content li a{
-            width: 100px;
-            font-size: 17px;
+            width: 96px;
+            font-size: 11px;
         }
 }
 @media screen and (max-width: 768px){
@@ -1562,8 +1567,8 @@ text-align:center;
 	}
     .drop-down-content li a {
         margin:0;
-        width: 100px;
-        font-size: 17px;
+        width: 93px;
+        font-size: 11px;
     }
 }
 @media screen and (max-width: 767px){
@@ -1661,8 +1666,8 @@ text-align:center;
 
     .drop-down-content li a{
         margin: 0;
-        font-size: 15px;
-            width: 100px;
+        font-size: 10px;
+            width: 90px;
         }
 }
 @media screen and (max-width: 736px){
@@ -1683,8 +1688,8 @@ text-align:center;
 	}
     .drop-down-content li a {
         margin:0;
-        width: 100px;
-        font-size: 15px;
+        width: 87px;
+        font-size: 10px;
     }
 }
 @media screen and (max-width: 667px){
@@ -1736,8 +1741,8 @@ text-align:center;
 	}
         .drop-down-content li a{
             margin: 0;
-            font-size: 12px;
-            width: 90px;
+            font-size: 10px;
+            width:84px;
         }
 }
 @media screen and (max-width: 640px){
@@ -1806,8 +1811,8 @@ text-align:center;
 	}
     .drop-down-content li a {
         margin:0;
-        width: 100px;
-        font-size: 12px;
+        width: 81px;
+        font-size: 10px;
     }
 
 }
@@ -1841,8 +1846,8 @@ text-align:center;
 	}
     .drop-down-content li a {
         margin:0;
-        width: 100px;
-        font-size: 12px;
+        width: 78px;
+        font-size: 10px;
     }
 
 }
@@ -1874,7 +1879,7 @@ text-align:center;
 	}
         .drop-down-content li a {
         margin:0;
-        width: 90px;
+        width: 75px;
         font-size: 10px;
     }
 }
@@ -1920,7 +1925,7 @@ text-align:center;
 	}
     .drop-down-content li a {
         margin:0;
-        width: 80px;
+        width: 72px;
         font-size: 10px;
     }
 }
@@ -1977,7 +1982,7 @@ text-align:center;
 	}
     .drop-down-content li a {
         margin:0;
-        width: 70px;
+        width: 69px;
         font-size: 10px;
     }
 }
@@ -2043,7 +2048,7 @@ text-align:center;
 	}
     .drop-down-content li a {
         margin:0;
-        width: 60px;
+        width: 66px;
         font-size: 10px;
     }
 }
@@ -2061,9 +2066,9 @@ text-align:center;
 	.w3l-bbg1::before, .w3l-bbg1::after {
 		border-width: 1px 137px 40px;
 	}
-.drop-down-content li a {
+    .drop-down-content li a {
         margin:0;
-        width: 100px;
+        width: 63px;
         font-size: 10px;
     }
 }
