@@ -398,8 +398,7 @@ h3.mission-title{
     color: #00539c;
     font-size: 2.5em;
     text-transform: capitalize;
-	margin-bottom:10px;
-    margin-top: 1em;
+	margin: 10px 10px 20px;
 }
 h4.mission-title {
     color: gray;
@@ -509,11 +508,18 @@ p.paper-style {
 }
 h3.video-title
 {
-    margin: 20px 10px 20px;
+
     text-align: left;
 
     color: darkblue;
     font-size: 30px;
+    position: relative;
+    min-height: 1px;
+    /*padding-right: 15px;*/
+    /*padding-left: 15px;*/
+    margin: 10px 10px 20px;
+    height:20%;
+    width: 100%;
 }
 .video-container {
 
@@ -792,15 +798,22 @@ div#lab h3 {
 .people-name{
     color: red;
     font-weight: 550;
+    /*float: left;*/
+    margin-left: 1em;
 
 }
 .people-situation{
+    margin-left: 5em;
     color: black;
     font-weight: 550;
+    /*float: left;*/
+    position:absolute;
 
 }
 .people-major {
     color: black;
+    margin-left: 25em;
+    /*float: left;*/
 
 }
 
@@ -820,8 +833,9 @@ div#lab h3 {
 .team_title_style {
     position: relative;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+    /*padding-right: 15px;*/
+    /*padding-left: 15px;*/
+    margin: 10px 10px 20px;
     height:20%;
     width: 100%;
 }
