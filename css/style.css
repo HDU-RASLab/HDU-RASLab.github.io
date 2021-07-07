@@ -1108,35 +1108,36 @@ a.agile-more:hover{
 .w3l-effect > li > a{
     font-size: 25px;
 }
-        .drop-down{
-            position:relative
-        }
-        .drop-down-content{
-            padding: 0;
-            display: none;
-            position: absolute;
-            overflow: hidden;
-        }
-        .drop-down-content li a{
-            display: block;
-            text-decoration: none;
-            width: 200px;
-            height: auto;
-            text-align: center;
-            /*line-height: ;*/
-            font-size: 15px;
-            color: white;
-            background-color: #2f3e45;
-            margin: 0 10px 0 10px;
+.drop-down{
+    position:relative
+}
+.drop-down-content{
+    padding: 0;
+    display: none;
+    position: absolute;
+    overflow: hidden;
+}
 
-        }
-        .drop-down-content li:hover a{
-            background-color:red;
-        }
+.drop-down-content li a{
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    /*line-height: ;*/
+    font-size: 15px;
+    color: white;
+    background-color: #2f3e45;
+    margin: 0 10px 0 10px;
 
-        .drop-down:hover .drop-down-content {
-            display: block;
-        }
+}
+.drop-down-content li:hover a{
+    background-color:red;
+}
+
+.drop-down:hover .drop-down-content {
+    display: block;
+}
 /*-- //tooltip --*/
 /* -- Responsive code -- */
 @media screen and (max-width: 1440px){
@@ -1157,7 +1158,7 @@ a.agile-more:hover{
 		padding-bottom: 0;
 	}
         .drop-down-content li a{
-            font-size: 15px;
+            font-size: 18px;
             width: 170px;
         }
 }
@@ -1198,6 +1199,11 @@ a.agile-more:hover{
 		width: 32%;
 		left: 11%;
 	}
+    .drop-down-content li a {
+        margin:0;
+        width: 100px;
+        font-size: 17px;
+    }
 }
 @media screen and (max-width: 1080px){
 	.w3ls-banner-text {
@@ -1263,7 +1269,7 @@ a.agile-more:hover{
     }
     .drop-down-content li a{
         width: 150px;
-        font-size: 13px;
+        font-size: 17px;
     }
 }
 @media screen and (max-width: 1050px){
@@ -1300,7 +1306,7 @@ a.agile-more:hover{
 	}
     .drop-down-content li a{
         width: 130px;
-        font-size: 12px;
+        font-size: 17px;
     }
 }
 @media screen and (max-width: 1024px){
@@ -1343,11 +1349,11 @@ a.agile-more:hover{
 	.w3layouts_vertical_tab p {
 		font-size: 1em;
 	}
-            .drop-down-content li a{
-            width: 120px;
-                font-size: 12px;
+    .drop-down-content li a{
+        width: 120px;
+            font-size: 17px;
 
-        }
+    }
 	
 }
 @media screen and (max-width: 991px){
@@ -1422,6 +1428,11 @@ text-align:center;
 		left: 9%;
 		bottom: 78px;
 	}
+    .drop-down-content li a {
+        margin:0;
+        width: 100px;
+        font-size: 17px;
+    }
 }
 @media screen and (max-width: 900px){
 	.w3l-bbg1 {
@@ -1458,9 +1469,10 @@ text-align:center;
         font-size: 18px;
     }
 
-             .drop-down-content li a{
+    .drop-down-content li a{
 
             width: 120px;
+        font-size: 17px;
 
         }
 }
@@ -1494,7 +1506,7 @@ text-align:center;
     }
         .drop-down-content li a{
             width: 100px;
-
+            font-size: 17px;
         }
 }
 @media screen and (max-width: 768px){
@@ -1548,6 +1560,11 @@ text-align:center;
 	.w3_agileits-tabgrid1.agile-text {
 		min-height: 240px;
 	}
+    .drop-down-content li a {
+        margin:0;
+        width: 100px;
+        font-size: 17px;
+    }
 }
 @media screen and (max-width: 767px){
 	.navbar-default .navbar-toggle {
@@ -1664,6 +1681,11 @@ text-align:center;
 	.contact-form {
 		bottom: 85px;
 	}
+    .drop-down-content li a {
+        margin:0;
+        width: 100px;
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 667px){
 	.w3l-bbg1.bbg1-w3l {
@@ -1817,6 +1839,11 @@ text-align:center;
 	.w3l-effect a:hover::after {
 		border-right: 116px solid transparent;
 	}
+    .drop-down-content li a {
+        margin:0;
+        width: 100px;
+        font-size: 12px;
+    }
 
 }
 @media screen and (max-width: 568px){
@@ -2034,7 +2061,11 @@ text-align:center;
 	.w3l-bbg1::before, .w3l-bbg1::after {
 		border-width: 1px 137px 40px;
 	}
-
+.drop-down-content li a {
+        margin:0;
+        width: 100px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 320px){
 	.navbar-nav > li {
@@ -2085,7 +2116,7 @@ text-align:center;
     .drop-down-content li a {
         margin:0;
         width: 60px;
-        font-size: 8px;
+        font-size: 10px;
     }
 }
 
