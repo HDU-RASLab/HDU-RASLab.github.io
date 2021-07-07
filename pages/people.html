@@ -26,59 +26,12 @@
 </head>
 <body>
 
-<!--	<div  id="home" class="banner">-->
-<!--		<div class="container">-->
-<!--			<div class="wthree-header">-->
-<!--				<div class="agileits-logo navbar-left">-->
-<!--					<h1><a href="../index.html">R & S</a></h1>-->
-<!--				</div>-->
-<!--				<div class="navbar-right social-icons">-->
-<!--					<ul>-->
-<!--						<ul>-->
-<!--						<li><a href="https://github.com/HDU-RASLab" target="view_window" class="fa fa-github icon-border facebook"> </a></li>-->
-<!--						<li><a href="mailto:2315157813@qq.com" class="fa fa-envelope icon-border email"> </a></li>-->
-<!--						<li><a href="tel:15968170605" class="fa fa-phone icon-border googleplus"> </a></li>-->
-<!--&lt;!&ndash;						<li><a href="#" class="fa fa-mobile icon-border rss"> </a></li>&ndash;&gt;-->
-<!--					</ul>-->
-<!--					</ul>-->
-<!--				</div>-->
-<!--				<div class="clearfix"> </div>-->
-<!--			</div>-->
-<!--			<div class="w3ls-banner-text">-->
-<!--				<h2 class="agileinfo">机器人与自主系统实验室</h2>-->
-<!--				<h3 class="agileinfo border">Robotics and Autonomous Systems Lab (RAS Lab)</h3>-->
-<!--				<h3 class="agileinfo"> @杭州电子科技大学</h3>-->
-<!--				<p>leadership through innovation</p>-->
-<!--			</div>-->
-
-<!--			&lt;!&ndash; navigation &ndash;&gt;-->
-<!--			<div class="top-w3lnav">-->
-<!--				<nav class="navbar navbar-default">-->
-<!--					<div class="navbar-header w3l-header">-->
-<!--						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">-->
-<!--							Menu-->
-<!--						</button>-->
-<!--					</div>-->
-<!--					&lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;-->
-<!--					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
-<!--						<ul class="nav navbar-nav navbar-center w3l-effect">-->
-<!--&lt;!&ndash;							<li><a href="index.html" class="w3ls-active">Home</a></li>&ndash;&gt;-->
-<!--							<li><a href="../index.html" >Home</a></li>-->
-<!--							<li><a href="#" >Team</a></li>-->
-<!--							<li><a href="research.html" >Research & Videos</a></li>-->
-
-<!--						</ul>-->
-<!--						<div class="clearfix"> </div>-->
-<!--					</div>-->
-<!--				</nav>-->
-<!--			</div>-->
-<!--			&lt;!&ndash; navigation &ndash;&gt;-->
-<!--		</div>-->
-<!--	</div>-->
     <div id="banner"></div>
     <script>
           $("#banner").load("banner.html");
     </script>
+
+	
 	<div class="team-style" id="team">
 
 		<div class="w3ls-section">
@@ -391,44 +344,6 @@
 
 <!-- //footer -->
 <!-- for-Clients -->
-	<script src="../js/owl.carousel.js"></script>
-	<link href="../css/owl.carousel.css" rel="stylesheet">
-			<!-- requried-jsfiles-for owl -->
-							        <script>
-									    $(document).ready(function() {
-									      $("#owl-demo2").owlCarousel({
-									        items : 1,
-									        lazyLoad : false,
-									        autoPlay : true,
-									        navigation : false,
-									        navigationText :  false,
-									        pagination : true,
-									      });
-									    });
-									  </script>
-			<!-- //requried-jsfiles-for owl -->
-	<script>
-		$(function(){
-			function random(owlSelector){
-				owlSelector.children().sort(function(){
-					return Math.round(Math.random()) - 0.5;
-				}).each(function(){
-					$(this).appendTo(owlSelector);
-				});
-			}
-
-			$('#owl-demo').owlCarousel({
-
-				beforeInit: function(elem)
-				{
-					random(elem);
-				},
-				autoPlay:3000,
-				items : 1,
-
-			});
-		});
-	</script>
 
 	<!-- //for-Clients -->
 	<script src="../js/SmoothScroll.min.js"></script>
@@ -448,17 +363,7 @@
 	<!-- smooth-scrolling-of-move-up -->
 	<script type="text/javascript">
 		$(document).ready(function() {
-			/*
-			var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear'
-			};
-			*/
-
 			$().UItoTop({ easingType: 'easeOutQuart' });
-
 		});
 	</script>
 	<!-- responsive-tabs -->
