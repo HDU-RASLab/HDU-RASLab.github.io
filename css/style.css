@@ -120,12 +120,12 @@ body a:hover{
 	box-shadow: inset 0 0 0 3px #fff; 
 }  
 /* facebook */
-.icon-border.facebook:hover::before {
-	-webkit-box-shadow: inset 0 0 0 48px #3b5998; 
-	-moz-box-shadow: inset 0 0 0 48px #3b5998; 
-	-o-box-shadow: inset 0 0 0 48px #3b5998; 
-	-ms-box-shadow: inset 0 0 0 48px #3b5998; 
-	box-shadow: inset 0 0 0 48px #3b5998; 
+.icon-border.github:hover::before {
+	-webkit-box-shadow: inset 0 0 0 48px #cc20f1;
+	-moz-box-shadow: inset 0 0 0 48px #cc20f1;
+	-o-box-shadow: inset 0 0 0 48px #cc20f1;
+	-ms-box-shadow: inset 0 0 0 48px #cc20f1;
+	box-shadow: inset 0 0 0 48px #cc20f1;
 }  
 /* twitter */
 .icon-border.email:hover::before {
@@ -136,7 +136,7 @@ body a:hover{
 	box-shadow: inset 0 0 0 48px #4099ff;
 }  
 /* google plus */
-.icon-border.googleplus:hover::before {
+.icon-border.user:hover::before {
 	-webkit-box-shadow: inset 0 0 0 48px #d34836;
 	-moz-box-shadow: inset 0 0 0 48px #d34836;
 	-o-box-shadow: inset 0 0 0 48px #d34836;
@@ -144,7 +144,7 @@ body a:hover{
 	box-shadow: inset 0 0 0 48px #d34836;
 }   
 /* rss */
-.icon-border.rss:hover::before {
+.icon-border.phone:hover::before {
 	-webkit-box-shadow: inset 0 0 0 48px #ee802f;
 	-moz-box-shadow: inset 0 0 0 48px #ee802f;
 	-o-box-shadow: inset 0 0 0 48px #ee802f;
@@ -209,7 +209,7 @@ div#bs-example-navbar-collapse-1 {
     width: 100%;
     right: 0px;
     background: transparent;
-    content: "";
+    /*content: "";*/
     border-top: 0px solid transparent;
     border-left: 0px solid transparent;
     border-right: 148px solid transparent;
@@ -289,6 +289,7 @@ h3.border {
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
+
 /*-- //slider-up-arrow --*/ 
 /*-- banner bottom--*/ 
 .w3ls-section{
@@ -446,7 +447,8 @@ p.paper-style {
     color: red;
 }
 .paper-title h3{
-    margin-top: 20px;
+    margin: 20px 0 10px;
+
     text-align: left;
     /*margin-left: 40px;*/
     color: darkblue;
@@ -457,11 +459,30 @@ p.paper-style {
     font-size: 18px;
     margin:10px 0 10px;
 }
+.paper-title >a{
+    color: blue;
+}
 .vide-block-style {
-    background: #00bcd6;
+    background: lightgrey;
     border-radius: 5px;
     margin-bottom: 1em;
 }
+.vide-block-style h3{
+    color: mediumblue;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.vide-block-style p{
+    color: dodgerblue;
+    font-size: 1em;
+    /*margin-top: 20px;*/
+    margin-bottom: 20px;
+    text-align: left;
+}
+
 .video-style
 {
     background: white;
@@ -470,12 +491,11 @@ p.paper-style {
 }
 h3.video-title
 {
-    color: #000000;
-    font-size: 2.5em;
-    text-transform: capitalize;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+    margin: 20px 10px 20px;
+    text-align: left;
+
+    color: darkblue;
+    font-size: 30px;
 }
 .video-container {
 
@@ -563,15 +583,15 @@ div#lab h3 {
     border-radius: 2em;
 }
 
-.grid {
-	position: relative;
-	clear: both;
-	margin: 0 auto;
-	max-width: 1000px;
-	list-style: none;
-	text-align: center;
-	background: rgba(0, 0, 0, 0.86);
-} 
+/*.grid {*/
+/*	position: relative;*/
+/*	clear: both;*/
+/*	margin: 0 auto;*/
+/*	max-width: 1000px;*/
+/*	list-style: none;*/
+/*	text-align: center;*/
+/*	background: rgba(0, 0, 0, 0.86);*/
+/*}*/
 /* Common style */
 .grid {
 	position: relative;	
@@ -579,7 +599,7 @@ div#lab h3 {
 	margin: 10px 0;
 	height: auto;
 	text-align: center;
-	cursor: pointer;
+	/*cursor: pointer;*/
 } 
 .grid img {
 	position: relative;
@@ -602,7 +622,7 @@ div#lab h3 {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%; 
+	height: 100%;
 }
 
 /* Anchor will cover the whole item by default */
@@ -613,7 +633,7 @@ div#lab h3 {
 	white-space: nowrap;
 	font-size: 0;
 	opacity: 0;
-} 
+}
 .grid p {
 	letter-spacing: 1px;
 	font-size: 68.5%;
@@ -648,8 +668,9 @@ div#lab h3 {
     position: absolute;
     right: 0;
     bottom: 0;
-    color: #fff;
-    margin: 3em;
+    color: #ffffff;
+    font-size: 25px;
+    margin: 4em 1em 1em;
     padding: 0 1em;
     border-right: 4px solid #fff;
     text-align: right;
@@ -725,6 +746,7 @@ div#lab h3 {
 	padding: 10px 20px 20px 20px;
 	background: #FFFFFF;
     width: 100%;
+    border-radius: 2em;
 	/*border: 1px solid #B8B8B8;*/
 }
 .image-info
@@ -826,6 +848,8 @@ div#lab h3 {
 .team-info:before {
     background-color: rgba(0,0,0,0.85);
     border: 3px solid #00bcd6;
+    margin: 15px 20px 10px 20px;
+    border-radius: 1em;
     bottom: 0px;
     content: "";
     display: inline-block;
@@ -1005,6 +1029,7 @@ form.agileits-form {
     background: rgba(255, 255, 255, 0.47);
 }
 .address{
+    font-size: 20px;
 	margin:1em 0;
 }
 .w3layouts-address {
@@ -1083,6 +1108,34 @@ a.agile-more:hover{
 .w3l-effect > li > a{
     font-size: 25px;
 }
+        .drop-down{
+            position:relative
+        }
+        .drop-down-content{
+            padding: 0;
+            display: none;
+            position: absolute;
+            overflow: hidden;
+        }
+        .drop-down-content li a{
+            display: block;
+            text-decoration: none;
+            width: 200px;
+            height: auto;
+            text-align: center;
+            /*line-height: ;*/
+            color: white;
+            background-color: #2f3e45;
+            margin: 0 10px 0 10px;
+
+        }
+        .drop-down-content li:hover a{
+            background-color:red;
+        }
+
+        .drop-down:hover .drop-down-content {
+            display: block;
+        }
 /*-- //tooltip --*/
 /* -- Responsive code -- */
 @media screen and (max-width: 1440px){
@@ -1102,6 +1155,10 @@ a.agile-more:hover{
 	.test {
 		padding-bottom: 0;
 	}
+        .drop-down-content li a{
+            font-size: 20px;
+            width: 170px;
+        }
 }
 @media screen and (max-width: 1366px){
 	.wthree-banner-bottom {
@@ -1203,6 +1260,10 @@ a.agile-more:hover{
     .w3l-effect > li　> a {
         font-size: 20px;
     }
+    .drop-down-content li a{
+        width: 150px;
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 1050px){
 	.wthree-banner-bottom {
@@ -1235,7 +1296,11 @@ a.agile-more:hover{
 	}
 	h3.w3ls-title.contact-w3ls {
 		margin-bottom: 1em;
-	}	
+	}
+    .drop-down-content li a{
+        width: 130px;
+        font-size: 14px;
+    }
 }
 @media screen and (max-width: 1024px){
 	.w3ls-banner-text {
@@ -1277,6 +1342,11 @@ a.agile-more:hover{
 	.w3layouts_vertical_tab p {
 		font-size: 1em;
 	}
+            .drop-down-content li a{
+            width: 120px;
+                font-size: 15px;
+
+        }
 	
 }
 @media screen and (max-width: 991px){
@@ -1386,6 +1456,12 @@ text-align:center;
      .w3l-effect > li　> a {
         font-size: 18px;
     }
+
+             .drop-down-content li a{
+
+            width: 120px;
+
+        }
 }
 @media screen and (max-width: 800px){
 	.banner {
@@ -1415,6 +1491,10 @@ text-align:center;
     .w3l-effect > li > a{
         font-size: 20px;
     }
+        .drop-down-content li a{
+            width: 100px;
+
+        }
 }
 @media screen and (max-width: 768px){
 	h2.agileinfo {
@@ -1526,12 +1606,14 @@ text-align:center;
 	ul.nav.navbar-nav.navbar-center.w3l-effect {
 		padding: 1em 0 2em;
 	}
-	.w3l-effect a {
+	.w3l-effect a{
 		height: 37px;
 	}
     .w3l-effect > li > a{
         font-size: 15px;
     }
+
+
 	.w3l-effect a:hover::after {
 		border-right: 116px solid transparent;
 		top: -24px;
@@ -1558,6 +1640,12 @@ text-align:center;
 		padding: 7em 1.5em 0;
 		min-height: 240px;
 	}
+
+    .drop-down-content li a{
+        margin: 0;
+        font-size: 15px;
+            width: 100px;
+        }
 }
 @media screen and (max-width: 736px){
 	.wthree-banner-bottom {
@@ -1623,6 +1711,11 @@ text-align:center;
 	div#contact {
 		padding-top: 1em;
 	}
+        .drop-down-content li a{
+            margin: 0;
+            font-size: 12px;
+            width: 90px;
+        }
 }
 @media screen and (max-width: 640px){
 	.banner {
@@ -1688,6 +1781,12 @@ text-align:center;
 	.agile-slide.w3ls-section h5 {
 		font-size: 1.5em;
 	}
+    .drop-down-content li a {
+        margin:0;
+        width: 100px;
+        font-size: 12px;
+    }
+
 }
 @media screen and (max-width: 600px){
 	.w3_agileits-tabgrid1.agile-text {
@@ -1717,6 +1816,7 @@ text-align:center;
 	.w3l-effect a:hover::after {
 		border-right: 116px solid transparent;
 	}
+
 }
 @media screen and (max-width: 568px){
 	.banner {
@@ -1744,6 +1844,11 @@ text-align:center;
 	.w3l-effect a:hover::after {
 		border-right: 109px solid transparent;
 	}
+        .drop-down-content li a {
+        margin:0;
+        width: 90px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 480px){
 	h2.agileinfo {
@@ -1785,6 +1890,11 @@ text-align:center;
 	.w3l-effect a:hover::after {
 		border-right: 91px solid transparent;
 	}
+    .drop-down-content li a {
+        margin:0;
+        width: 80px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 414px){
 	.w3l-effect a:hover::after {
@@ -1837,6 +1947,11 @@ text-align:center;
 	.test-grid1 {
 		padding: 5em 2em 1.9em;
 	}
+    .drop-down-content li a {
+        margin:0;
+        width: 70px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 384px){
 	.navbar-nav > li {
@@ -1898,6 +2013,11 @@ text-align:center;
 	.agileinfo-copyright {
 		padding: 1em;
 	}
+    .drop-down-content li a {
+        margin:0;
+        width: 60px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 375px){
 	.social-icons ul li a.fa {
@@ -1913,6 +2033,7 @@ text-align:center;
 	.w3l-bbg1::before, .w3l-bbg1::after {
 		border-width: 1px 137px 40px;
 	}
+
 }
 @media screen and (max-width: 320px){
 	.navbar-nav > li {
@@ -1960,6 +2081,11 @@ text-align:center;
 	h3.w3ls-title {
 		font-size: 2.2em;
 	}
+    .drop-down-content li a {
+        margin:0;
+        width: 60px;
+        font-size: 8px;
+    }
 }
 
 
