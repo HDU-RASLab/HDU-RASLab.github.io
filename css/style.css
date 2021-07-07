@@ -462,6 +462,24 @@ p.paper-style {
 .paper-title >a{
     color: blue;
 }
+
+.news-title h3{
+    margin: 20px 0 10px;
+
+    text-align: left;
+    /*margin-left: 40px;*/
+    color: darkblue;
+    font-size: 30px;
+}
+.news-title > ol > li{
+    color: black;
+    font-size: 18px;
+    margin:10px 0 10px;
+}
+.news-title >a{
+    color: blue;
+}
+
 .vide-block-style {
     background: lightgrey;
     border-radius: 5px;
