@@ -1124,6 +1124,7 @@ a.agile-more:hover{
             height: auto;
             text-align: center;
             /*line-height: ;*/
+            font-size: 15px;
             color: white;
             background-color: #2f3e45;
             margin: 0 10px 0 10px;
@@ -1156,7 +1157,7 @@ a.agile-more:hover{
 		padding-bottom: 0;
 	}
         .drop-down-content li a{
-            font-size: 20px;
+            font-size: 15px;
             width: 170px;
         }
 }
@@ -1262,7 +1263,7 @@ a.agile-more:hover{
     }
     .drop-down-content li a{
         width: 150px;
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 @media screen and (max-width: 1050px){
@@ -1299,7 +1300,7 @@ a.agile-more:hover{
 	}
     .drop-down-content li a{
         width: 130px;
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 @media screen and (max-width: 1024px){
@@ -1344,7 +1345,7 @@ a.agile-more:hover{
 	}
             .drop-down-content li a{
             width: 120px;
-                font-size: 15px;
+                font-size: 12px;
 
         }
 	
