@@ -801,22 +801,27 @@ div#lab h3 {
     font-weight: 550;
     /*float: left;*/
     /*margin-left: 20px;*/
-    position:absolute;
+    /*position:absolute;*/
+    /*text-align: left;*/
 
 }
 .people-situation{
-    margin-left: 80px;
+    /*margin-left: 80px;*/
     color: black;
     font-weight: 550;
-    /*float: left;*/
-    position:absolute;
+    /*float: inherit;*/
+    /*text-align-last: start;*/
+    /*position:absolute;*/
+    /*text-align: center;*/
 
 
 }
 .people-major {
     color: black;
-    margin-left: 380px;
+    /*margin-left: 500px;*/
     /*float: left;*/
+    /*text-align: right;*/
+
 
 }
 
