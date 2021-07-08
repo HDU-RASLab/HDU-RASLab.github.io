@@ -56,7 +56,7 @@ body a:hover{
 	-webkit-background-size:cover;
 	background-size:cover;
 	-moz-background-size:cover;
-	min-height:500px;
+	min-height:300px;
 }
 .wthree-header {
     padding: 2em 0;
@@ -229,13 +229,13 @@ div#bs-example-navbar-collapse-1 {
 /*-- //top-w3lnav --*/
 .w3ls-banner-text {
     width: 75%;
-    margin: 8em auto;
+    margin: 2em auto;
 	text-align:center;
 }
 h2.agileinfo {
     text-transform: uppercase;
     color: #fff;
-    font-size: 5em;
+    font-size: 4em;
     letter-spacing: 2px;
     /*padding: 1em 0 0;*/
     text-shadow: 5px 0px 17px rgba(0, 77, 143, 0.52);
@@ -244,7 +244,7 @@ h2.agileinfo {
 h3.agileinfo {
     text-transform: uppercase;
     color: #ffffff;
-    font-size: 2em;
+    font-size: 1em;
     letter-spacing: 2px;
     padding: 0.5em 0 0;
     text-align:center;
@@ -389,7 +389,7 @@ h3.border {
 /*-- //banner bottom --*/ 
 /*-- tabs --*/
 h3.w3ls-title {
-    color: #00539c;
+    color: darkblue;
     font-size: 2.5em;
     text-transform: capitalize;
 	/*margin-bottom:1em;*/
@@ -1226,11 +1226,11 @@ a.agile-more:hover{
 		margin-bottom:2em;
 	}
 	.banner {
-		min-height: 480px;
+		min-height: 300px;
 	}
 	.w3ls-banner-text {
 		width: 70%;
-		margin: 5em auto;
+		margin: 2em auto;
 	}
 	.w3ls-bb-right p {
 		width: 80%;
@@ -1251,14 +1251,17 @@ a.agile-more:hover{
 @media screen and (max-width: 1080px){
 	.w3ls-banner-text {
 		width: 73%;
-		margin: 4em auto;
+		margin: 2em auto;
 	}
 	h2.agileinfo {
-       font-size: 4.5em;
+       font-size: 3.8em;
 	}
-    h3.agileinfo {
-       font-size: 4.5em;
-	}
+    /*h3.agileinfo {*/
+    /*   font-size: 1em;*/
+	/*}*/
+    h3.border {
+        font-size: 2.1em;
+    }
 	.agile-slide {	
 		min-height: 365px;
 	}
@@ -1295,7 +1298,7 @@ a.agile-more:hover{
 		width: 90%;
 	}
 	.banner {
-		min-height: 450px;
+		min-height: 300px;
 	}
 	.contact-form {
 		width: 35%;
@@ -1351,13 +1354,13 @@ a.agile-more:hover{
 @media screen and (max-width: 1024px){
 	.w3ls-banner-text {
 		width: 73%;
-		margin: 4em auto 4em;
+		margin: 2em auto 2em;
 	}
 	.agile-section {
 		width: 85%;
 	}
 	.banner {
-		min-height: 400px;
+		min-height: 250px;
 	}
 	.w3ls-bb-right p {
 		width: 72%;
@@ -1365,13 +1368,19 @@ a.agile-more:hover{
 		margin: 0 auto;
 	}
 	h2.agileinfo {
-		font-size: 4.3em;
+		font-size: 3.2em;
 		padding: 0;
 	}
     h3.agileinfo {
-		font-size: 4.3em;
-		padding: 0;
+		font-size: 1em;
+		/*padding: 0;*/
 	}
+    h3.border {
+        font-size: 1.8em;
+    }
+    .w3l-effect > li > a{
+        font-size: 20px;
+    }
 	.contact-left {
 		width: 50%;
 	}
@@ -1488,11 +1497,14 @@ a.agile-more:hover{
        border-width: 1px 126px 40px;
 	}
 	h2.agileinfo {
-		font-size: 4em;
+		font-size: 3.2em;
 	}
     h3.agileinfo {
-		font-size: 4em;
+		font-size: 1em;
 	}
+    h3.border {
+        font-size: 1.8em;
+    }
 	.w3l-bbg1 p {
 		width: 75%;
 	}
@@ -1533,15 +1545,24 @@ a.agile-more:hover{
     .w3l-effect > li > a{
         font-size: 20px;
     }
+    .drop-down-content li a{
+
+        font-size: 12px;
+
+        }
 
 }
 @media screen and (max-width: 768px){
-	h2.agileinfo {
-		font-size: 3.7em;
+    h2.agileinfo {
+		font-size: 3.0em;
 	}
     h3.agileinfo {
-		font-size: 3.7em;
+		font-size: 0.8em;
+        padding:0;
 	}
+    h3.border {
+        font-size: 1.8em;
+    }
 	.w3ls-banner-text p {
 		letter-spacing: 2px;
 	}
@@ -1707,6 +1728,12 @@ a.agile-more:hover{
     .drop-down-content li a {
         width: 101px;
     }
+        h3.agileinfo {
+            font-size: 0.7em;
+        }
+        h3.border{
+            font-size: 1em;
+        }
 }
 @media screen and (max-width: 667px){
 	.w3l-bbg1.bbg1-w3l {
@@ -1787,12 +1814,12 @@ a.agile-more:hover{
 	.w3l-bbg1.bbg1-w3l {
 		margin: 7em 0;
 	}
-	h2.agileinfo {
-		font-size: 3.5em;
-	}
-    h3.agileinfo {
-		font-size: 3.5em;
-	}
+	/*h2.agileinfo {*/
+	/*	font-size: 3.5em;*/
+	/*}*/
+    /*h3.agileinfo {*/
+	/*	font-size: 3.5em;*/
+	/*}*/
 	.w3_agileits-tabgrid1.agile-text {
 		min-height: 197px;
 	}
@@ -1865,12 +1892,12 @@ a.agile-more:hover{
 	.banner {
 		min-height: 300px;
 	}
-	h2.agileinfo {
-		font-size: 3.2em;
-	}
-    h3.agileinfo {
-		font-size: 3.2em;
-	}
+	/*h2.agileinfo {*/
+	/*	font-size: 3.2em;*/
+	/*}*/
+    /*h3.agileinfo {*/
+	/*	font-size: 3.2em;*/
+	/*}*/
 	.w3_agileits-tabgrid1.agile-text {
 		min-height: 173px;
 		padding: 5em 1.5em 0;
@@ -1892,12 +1919,12 @@ a.agile-more:hover{
     }
 }
 @media screen and (max-width: 480px){
-	h2.agileinfo {
-		font-size: 2.5em;
-	}
-    h3.agileinfo {
-		font-size: 2.5em;
-	}
+	/*h2.agileinfo {*/
+	/*	font-size: 2.5em;*/
+	/*}*/
+    /*h3.agileinfo {*/
+	/*	font-size: 2.5em;*/
+	/*}*/
 	.w3ls-banner-text p {
 		font-size: 1.5em;
 	}
@@ -1948,9 +1975,9 @@ a.agile-more:hover{
 	h2.agileinfo {
 		font-size: 2.2em;
 	}
-    h3.agileinfo {
-		font-size: 2.2em;
-	}
+    /*h3.agileinfo {*/
+	/*	font-size: 2.2em;*/
+	/*}*/
 	.w3ls-banner-text {
 		width: 73%;
 		margin: 3em auto;
@@ -1997,9 +2024,9 @@ a.agile-more:hover{
 	h2.agileinfo {
 		font-size: 2em;
 	}
-    h3.agileinfo {
-		font-size: 2em;
-	}
+    /*h3.agileinfo {*/
+	/*	font-size: 2em;*/
+	/*}*/
 	.w3ls-bb-right {
 		padding: 1em 2em;
 	}
@@ -2079,9 +2106,9 @@ a.agile-more:hover{
 	h2.agileinfo {
 		font-size: 1.8em;
 	}
-    h3.agileinfo {
-		font-size: 1.8em;
-	}
+    /*h3.agileinfo {*/
+	/*	font-size: 1.8em;*/
+	/*}*/
 	.w3ls-banner-text p {
 		font-size: 1.1em;
 	}
