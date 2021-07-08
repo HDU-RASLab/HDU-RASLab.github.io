@@ -1068,10 +1068,7 @@ form.agileits-form {
     border-radius: 0 20% 0 0;
     background: rgba(255, 255, 255, 0.47);
 }
-.address{
-    font-size: 20px;
-	margin:1em 0;
-}
+
 .w3layouts-address {
     width: 50%;
     float: left;
@@ -1080,6 +1077,10 @@ form.agileits-form {
 {
     width: 50%;
     float: right;
+}
+.address{
+    font-size: 20px;
+	margin:1em 0;
 }
 .address h5 {
     display: inline-block;
@@ -1442,7 +1443,7 @@ a.agile-more:hover{
 	}
 	.address {
 		margin: 1em 0 0;
-        text-align:center;
+        text-align:left;
 	}
 	.agile-section {
 		width: 87%;
