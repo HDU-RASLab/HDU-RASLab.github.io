@@ -527,6 +527,7 @@ h3.video-title
   margin-left: auto;
 }
 
+
 .team-style
 {
     margin-top: 2em;
@@ -799,20 +800,22 @@ div#lab h3 {
     color: red;
     font-weight: 550;
     /*float: left;*/
-    margin-left: 1em;
+    /*margin-left: 20px;*/
+    position:absolute;
 
 }
 .people-situation{
-    margin-left: 5em;
+    margin-left: 80px;
     color: black;
     font-weight: 550;
     /*float: left;*/
     position:absolute;
 
+
 }
 .people-major {
     color: black;
-    margin-left: 25em;
+    margin-left: 380px;
     /*float: left;*/
 
 }
@@ -1083,7 +1086,8 @@ form.agileits-form {
     display: inline;
 }
 .address a{
-	color:#000;
+    display: inline;
+	color:#00bcd6;
 }
 h3.w3ls-title.contact-w3ls {
     margin-top: 1em;
@@ -1236,6 +1240,7 @@ a.agile-more:hover{
         width: 166px;
         font-size: 15px;
     }
+
 }
 @media screen and (max-width: 1080px){
 	.w3ls-banner-text {

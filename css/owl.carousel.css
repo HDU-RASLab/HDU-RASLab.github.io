@@ -366,6 +366,17 @@
 		top: 152px;
 		right: 45%;
 	}
+	.owl-pagination {
+    position: absolute;
+    right: 7%;
+    bottom: 5%;
+	}
+	.owl-theme .owl-controls .owl-page span {
+
+    width: 8px;
+    height: 8px;
+	margin: 2px 3px;
+}
 }
 @media (max-width:640px){
 	.owl-carousel {
