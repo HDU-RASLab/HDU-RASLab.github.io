@@ -479,20 +479,21 @@ p.paper-style {
     color: blue;
 }
 
-.vide-block-style {
+.video-block-style {
     background: lightgrey;
     border-radius: 5px;
     margin-bottom: 1em;
 }
-.vide-block-style h3{
-    color: mediumblue;
+.video-block-style h3{
+    color: black;
     font-size: 1.5em;
     text-transform: capitalize;
     margin-top: 20px;
     margin-bottom: 20px;
-    text-align: left;
+    text-align: center;
+    word-break: break-all;
 }
-.vide-block-style p{
+.video-block-style p{
     color: dodgerblue;
     font-size: 1em;
     /*margin-top: 20px;*/
