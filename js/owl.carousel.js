@@ -1171,7 +1171,7 @@ if ( typeof Object.create !== "function" ) {
 
 		autoHeight : function(){
 			var base = this;
-			var $currentimg = $(base.$owlItems[base.currentItem]).find("memorys");
+			var $currentimg = $(base.$owlItems[base.currentItem]).find("memory");
 
 			if($currentimg.get(0) !== undefined ){
 				var iterations = 0;
