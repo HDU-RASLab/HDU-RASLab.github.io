@@ -41,14 +41,57 @@
                 <div class="w3ls-section " id="research news">
                     <div class="col-lg-12">
                         <h3 class="w3ls-title contact-w3ls">Research News of Us</h3>
-                        <div class="news-title">
+                        <div class="container">
                 			<h3>2021</h3>
-							<ol>
-								<li>第七届中国机器人峰会，浙江余姚，2021年7月14-16日.</li>
-								<li>第40届中国控制会议（CCC2021）,上海，2021年7月26-28日</li>
-								<li>The 14th International Conference on Intelligent Robotics and Applications(ICIRA)，Yantai, China，August 6-8, 2021</li>
-							</ol>
+							<h4>第七届中国机器人峰会，浙江余姚，2021年7月14-16日.</h4>
+
+							<div class="col-lg-12">
+								<div id="slide1" class="owl-carousel">
+									<div class="slide-info">
+										<img src="../images/news/机器人峰会/photo1.jpg" alt="" class="memory-image-style">
+									</div>
+
+									<div class="slide-info">
+										<img src="../images/news/机器人峰会/photo2.jpg" alt="" class="memory-image-style">
+									</div>
+
+									<div class="slide-info">
+										<img src="../images/news/机器人峰会/photo3.jpg" alt="" class="memory-image-style">
+									</div>
+									<div class="slide-info">
+										<img src="../images/news/机器人峰会/photo4.jpg" alt="" class="memory-image-style">
+									</div>
+									<div class="slide-info">
+										<img src="../images/news/机器人峰会/合照1.jpg" alt="" class="memory-image-style">
+									</div>
+
+									<div class="slide-info">
+										<img src="../images/news/机器人峰会/交流1.jpg" alt="" class="memory-image-style">
+									</div>
+
+
+								</div>
+							</div>
+
+							<div class="video-win-h ">
+								<video width="100%" controls style="padding-left: 20px; border-radius: 2em; margin-top:10px;">
+									  <source src="../images/news/机器人峰会/vlog.mp4" type="video/mp4">
+								</video>
+							</div>
+
+							<div class="video-win-h ">
+								<video width="100%" controls style="padding-left: 20px; border-radius: 2em; margin-top:10px;">
+									  <source src="../images/news/机器人峰会/询问.mp4" type="video/mp4">
+								</video>
+							</div>
+
 						</div>
+						
+						<div class="container">
+							<li>第40届中国控制会议（CCC2021）,上海，2021年7月26-28日</li>
+							<li>The 14th International Conference on Intelligent Robotics and Applications(ICIRA)，Yantai, China，August 6-8, 2021</li>
+						</div>
+
                     </div>
                 </div>
             </div>
@@ -60,7 +103,26 @@
 		<p> © Welcome to visit RASLab. </p>
 	</div>
 	<!-- //footer -->
+<!-- for-slide -->
+	<script src="../js/lightbox-plus-jquery.min.js"> </script>
+	<script src="../js/owl.carousel.js"></script>
+	<link href="../css/owl.carousel.css" rel="stylesheet">
+	<script>
+		$(function(){
 
+
+			$('#slide1').owlCarousel({
+
+
+				autoPlay:4000,
+				items : 2,
+				stopOnHover:false,
+			});
+
+
+		});
+	</script>
+	<!-- //for-slide -->
 
 <!--以下是为了顺滑-->
 	<script src="../js/SmoothScroll.min.js"></script>
