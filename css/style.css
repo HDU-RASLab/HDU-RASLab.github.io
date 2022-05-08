@@ -200,7 +200,7 @@ div#bs-example-navbar-collapse-1 {
 }
 /*navigation width each block*/
 .navbar-nav > li {
-    width: 20%;
+    width: 16.66%;
     float: left;
 }
 .w3l-effect a:hover::after,.w3ls-active:after {
@@ -1194,19 +1194,23 @@ a.agile-more:hover{
     display: none;
     position: absolute;
     overflow: hidden;
+    width: 100%;
+    padding:
 }
 
 .drop-down-content li a{
     display: block;
     text-decoration: none;
-    width: 200px;
+    width: 100%;
     height: auto;
     text-align: center;
     /*line-height: ;*/
     font-size: 20px;
     color: white;
     background-color: #2f3e45;
-    margin: 0 10px 0 10px;
+    margin: 0 0px 0 0%;
+    padding: 10px;
+
 
 }
 .drop-down-content li:hover a{
@@ -1351,6 +1355,9 @@ a.agile-more:hover{
     }
     .drop-down-content li a{
         width: 155px;
+    }
+    .w3l-effect > li > a{
+        font-size: 20px;
     }
 }
 @media screen and (max-width: 1050px){
@@ -1512,6 +1519,16 @@ a.agile-more:hover{
         width: 124px;
         font-size: 14px;
     }
+    .w3l-effect > li > a{
+        font-size: 16px;
+    }
+    .navbar-nav > li > a
+    {
+        height: 40px;
+        padding-top:10px;
+    }
+
+
 }
 @media screen and (max-width: 900px){
 	.w3l-bbg1 {
@@ -1586,6 +1603,14 @@ a.agile-more:hover{
         font-size: 12px;
 
         }
+    .w3l-effect > li > a{
+        font-size: 16px;
+    }
+    .navbar-nav > li > a
+    {
+        height: 40px;
+        padding-top:10px;
+    }
 
 }
 @media screen and (max-width: 768px){
@@ -2052,6 +2077,9 @@ a.agile-more:hover{
     .drop-down-content li a {
         width: 84px;
     }
+    .image-info p{
+    font-size: 50%;
+    }
 }
 @media screen and (max-width: 384px){
 	.navbar-nav > li {
@@ -2116,6 +2144,9 @@ a.agile-more:hover{
     .drop-down-content li a {
         width: 83px;
     }
+    .agileits-team-grid{
+        width: 50%;
+    }
 }
 @media screen and (max-width: 375px){
 	.social-icons ul li a.fa {
@@ -2133,6 +2164,11 @@ a.agile-more:hover{
 	}
     .drop-down-content li a {
         width: 81px;
+    }
+}
+@media screen and (max-width: 350px){
+    .navbar-nav > li{
+    width: 25%;
     }
 }
 @media screen and (max-width: 320px){
