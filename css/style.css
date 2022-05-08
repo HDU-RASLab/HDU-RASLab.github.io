@@ -872,13 +872,23 @@ div#lab h3 {
 
 .people-info
 {
-    padding-left: 20px ;
+    padding-left: 20px;
     padding-right: 20px;
     font-size: 18px;
 }
+
+.table-people{
+    border-collapse:separate;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    border: 1px solid #000;
+}
+
 .people-name{
     color: red;
     font-weight: 550;
+    border-bottom: 1px solid #000;
     /*float: left;*/
     /*margin-left: 20px;*/
     /*position:absolute;*/
@@ -889,6 +899,7 @@ div#lab h3 {
     /*margin-left: 80px;*/
     color: black;
     font-weight: 550;
+    border-bottom: 1px solid #000;
     /*float: inherit;*/
     /*text-align-last: start;*/
     /*position:absolute;*/
@@ -898,12 +909,12 @@ div#lab h3 {
 }
 .people-major {
     color: black;
+    border-bottom: 1px solid #000;
     /*margin-left: 500px;*/
     /*float: left;*/
     /*text-align: right;*/
-
-
 }
+
 
 .team-caption h4{
     margin:0;
@@ -1527,7 +1538,16 @@ a.agile-more:hover{
         height: 40px;
         padding-top:10px;
     }
-
+.table-people{
+    font-size: 16px;
+}
+.people-name{
+    width: 10%;
+}
+.people-situation{
+    width: 40%;
+}
+}
 
 }
 @media screen and (max-width: 900px){
@@ -1978,6 +1998,10 @@ a.agile-more:hover{
         .drop-down-content li a {
         width: 94.5px;
     }
+    .table-people{
+    font-size: 14px;
+    }
+
 }
 @media screen and (max-width: 480px){
 	/*h2.agileinfo {*/
@@ -2021,6 +2045,31 @@ a.agile-more:hover{
 	}
     .drop-down-content li a {
         width: 91px;
+    }
+    .table-people{
+    font-size: 12px;
+    }
+    .people-name{
+        width: 13%;
+    }
+    .people-situation{
+        width: 40%;
+    }
+
+    .address{
+        font-size: 15px;
+    }
+    .address h5 {
+        font-size: 15px;
+    }
+    .address li {
+        font-size: 13px;
+    }
+    .address p {
+        font-size: 15px;
+    }
+    .address a{
+        font-size: 15px;
     }
 }
 @media screen and (max-width: 414px){
@@ -2077,8 +2126,14 @@ a.agile-more:hover{
     .drop-down-content li a {
         width: 84px;
     }
+    .image-info h4{
+    font-size: 60%;
+    }
     .image-info p{
     font-size: 50%;
+    }
+    .team_title_style h3{
+    font-size: 20px;
     }
 }
 @media screen and (max-width: 384px){
