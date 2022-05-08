@@ -498,7 +498,7 @@ p.paper-style {
     text-transform: capitalize;
     margin-top: 20px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
     word-break: break-all;
 }
 .video-block-style p{
@@ -1746,9 +1746,11 @@ a.agile-more:hover{
 	}
 	.w3l-effect a{
 		height: 37px;
+
 	}
     .w3l-effect > li > a{
         font-size: 15px;
+
     }
 
 
@@ -2069,6 +2071,38 @@ a.agile-more:hover{
     .w3ls-section{
         padding: 10px 0 10px 0;
     }
+    .mission-title{
+        font-size: 16px;
+    }
+    h4.datasets-title{
+        font-size:12px;
+    }
+    .video-block-style h3{
+        font-size:16px;
+    }
+
+    .paper-title h3{
+        font-size: 15px;
+    }
+    .paper-title > ol > li{
+        font-size: 10px;
+    }
+    .paper-title >a{
+        font-size: 15px;
+    }
+
+    .news-title h3{
+        font-size: 20px;
+    }
+    .news-title h4{
+        font-size: 15px;
+    }
+    .news-title > ol > li{
+        font-size: 15px;
+    }
+    .news-title >a{
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 414px){
 	.w3l-effect a:hover::after {
@@ -2123,7 +2157,7 @@ a.agile-more:hover{
 	}
 
     .image-info h4{
-    font-size: 60%;
+    font-size: 70%;
     }
     .image-info p{
     font-size: 50%;
