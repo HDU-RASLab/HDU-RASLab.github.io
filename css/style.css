@@ -1220,7 +1220,8 @@ a.agile-more:hover{
     color: white;
     background-color: #2f3e45;
     margin: 0 0px 0 0%;
-    padding: 10px;
+    padding: 15px 0 15px 0;
+    height: 60px;
 
 
 }
@@ -1293,9 +1294,11 @@ a.agile-more:hover{
 
 }
 @media screen and (max-width: 1200px){
-        .drop-down-content li a{
-        width: 166px;
-        font-size: 15px;
+    .drop-down-content li a{
+        font-size: 18px;
+    }
+    .w3l-effect > li > a{
+    font-size: 20px;
     }
 
 }
@@ -1364,9 +1367,7 @@ a.agile-more:hover{
     .w3l-effect > li　> a {
         font-size: 20px;
     }
-    .drop-down-content li a{
-        width: 155px;
-    }
+
     .w3l-effect > li > a{
         font-size: 20px;
     }
@@ -1527,7 +1528,6 @@ a.agile-more:hover{
 		bottom: 78px;
 	}
     .drop-down-content li a {
-        width: 124px;
         font-size: 14px;
     }
     .w3l-effect > li > a{
@@ -1618,11 +1618,7 @@ a.agile-more:hover{
     .w3l-effect > li > a{
         font-size: 20px;
     }
-    .drop-down-content li a{
 
-        font-size: 12px;
-
-        }
     .w3l-effect > li > a{
         font-size: 16px;
     }
@@ -1784,11 +1780,8 @@ a.agile-more:hover{
 	}
 
     .drop-down-content li a{
-        margin: 0;
-        height: 30px;
         font-size: 12px;
-            width: 112px;
-        }
+    }
 }
 @media screen and (max-width: 736px){
 	.wthree-banner-bottom {
@@ -1807,7 +1800,7 @@ a.agile-more:hover{
 		bottom: 85px;
 	}
     .drop-down-content li a {
-        width: 101px;
+        height: 50px
     }
         h3.agileinfo {
             font-size: 0.7em;
@@ -1863,9 +1856,7 @@ a.agile-more:hover{
 	div#contact {
 		padding-top: 1em;
 	}
-    .drop-down-content li a{
-        width:97px;
-    }
+
 }
 @media screen and (max-width: 640px){
 	.banner {
@@ -1931,9 +1922,7 @@ a.agile-more:hover{
 	.agile-slide.w3ls-section h5 {
 		font-size: 1.5em;
 	}
-    .drop-down-content li a {
-        width: 91px;
-    }
+
 
 }
 @media screen and (max-width: 600px){
@@ -1959,14 +1948,12 @@ a.agile-more:hover{
 		border-right: 89px solid transparent;
 	}
 	.navbar-nav > li {
-		width: 21%;
+		width: 24%;
 	}
 	.w3l-effect a:hover::after {
 		border-right: 116px solid transparent;
 	}
-    .drop-down-content li a {
-        width: 113px;
-    }
+
 
 }
 @media screen and (max-width: 568px){
@@ -1995,9 +1982,7 @@ a.agile-more:hover{
 	.w3l-effect a:hover::after {
 		border-right: 109px solid transparent;
 	}
-        .drop-down-content li a {
-        width: 94.5px;
-    }
+
     .table-people{
     font-size: 14px;
     }
@@ -2043,9 +2028,7 @@ a.agile-more:hover{
 	.w3l-effect a:hover::after {
 		border-right: 91px solid transparent;
 	}
-    .drop-down-content li a {
-        width: 91px;
-    }
+
     .table-people{
     font-size: 12px;
     }
@@ -2070,6 +2053,21 @@ a.agile-more:hover{
     }
     .address a{
         font-size: 15px;
+    }
+
+
+    .image-content h3 {
+    font-size: 20px;
+
+
+    }
+    .image-content p{
+
+        font-size: 14px;
+
+    }
+    .w3ls-section{
+        padding: 10px 0 10px 0;
     }
 }
 @media screen and (max-width: 414px){
@@ -2123,9 +2121,7 @@ a.agile-more:hover{
 	.test-grid1 {
 		padding: 5em 2em 1.9em;
 	}
-    .drop-down-content li a {
-        width: 84px;
-    }
+
     .image-info h4{
     font-size: 60%;
     }
@@ -2196,9 +2192,7 @@ a.agile-more:hover{
 	.agileinfo-copyright {
 		padding: 1em;
 	}
-    .drop-down-content li a {
-        width: 83px;
-    }
+
     .agileits-team-grid{
         width: 50%;
     }
@@ -2217,9 +2211,7 @@ a.agile-more:hover{
 	.w3l-bbg1::before, .w3l-bbg1::after {
 		border-width: 1px 137px 40px;
 	}
-    .drop-down-content li a {
-        width: 81px;
-    }
+
 }
 @media screen and (max-width: 350px){
     .navbar-nav > li{
