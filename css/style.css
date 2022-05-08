@@ -2103,6 +2103,9 @@ a.agile-more:hover{
     .news-title >a{
         font-size: 15px;
     }
+    .effect-apollo p{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 414px){
 	.w3l-effect a:hover::after {
