@@ -2512,6 +2512,7 @@ table th[class*="col-"] {
   .table-responsive > .table-bordered > tfoot > tr:last-child > td {
     border-bottom: 0;
   }
+
 }
 fieldset {
   min-width: 0;
@@ -4293,7 +4294,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
+    padding-top: 17px;
     padding-bottom: 15px;
   }
 }
