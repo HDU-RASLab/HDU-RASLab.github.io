@@ -1,0 +1,249 @@
+
+ul.resp-tabs-list,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.resp-tabs-list li {
+  font-weight: 600;
+  font-size: 25px;
+  display: inline-block;
+  padding: 13px 15px;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  float: left;
+}
+
+.resp-tabs-container {
+  padding: 0px;
+  background-color: #fff;
+  clear: left;
+}
+
+h5.resp-accordion {
+  cursor: pointer;
+  padding: 5px;
+  display: none;
+}
+
+.resp-tab-content {
+	display: none;
+	background: #fff;
+}
+
+.resp-tab-active {
+  border: 1px solid #c1c1c1;
+  border-bottom: none;
+  margin-bottom: -1px !important;
+  padding: 12px 14px 14px 14px !important;
+}
+
+.resp-tab-active {
+  border-bottom: none;
+  background-color: #fff;
+}
+
+.resp-content-active,
+.resp-accordion-active { display: block; }
+
+.resp-tab-content { border: 1px solid #c1c1c1; }
+
+h5.resp-accordion {
+    border: 1px solid #c1c1c1;
+    border-top: 0px solid #c1c1c1;
+    margin: 0px;
+    padding: 10px 15px;
+    font-size: 0.9em;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: #212121;
+    font-weight: bold;
+}
+
+h5.resp-tab-active {
+  border-bottom: 0px solid #c1c1c1 !important;
+  margin-bottom: 0px !important;
+  padding: 10px 15px !important;
+}
+
+h5.resp-tab-title:last-child {
+  border-bottom: 12px solid #c1c1c1 !important;
+  background: blue;
+}
+
+/*-----------Vertical tabs-----------*/
+
+.resp-vtabs ul.resp-tabs-list {
+  float: left;
+  width: 100%;
+}
+
+.resp-vtabs .resp-tabs-list li {
+    display: inline-block;
+    padding: 1.5em 1.7em 1.5em 0.2em !important;
+    margin: 0!important;
+    cursor: pointer;
+    float: left;
+    width: 25%;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 1px solid #2a3354;
+    letter-spacing: 2px;
+    color: #000;
+    text-align: center;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.resp-vtabs .resp-tabs-list li:last-child{
+	/*border-bottom:1px solid #ececec;*/
+}
+
+.resp-vtabs .resp-tabs-container {
+    background-color: #fff;
+    border: none;
+    width: 100%;
+}
+.resp-vtabs .resp-tab-content { border: none; }
+.resp-vtabs li.resp-tab-active {
+    border: none;
+    border-right: none;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+    margin-right: 0;
+    color: #000;
+	border-bottom:1px solid #000;
+}
+.resp-vtabs .resp-tabs-list li:hover {
+    border-color: #00539c;
+    color: #00539c;
+}
+.resp-arrow {
+  width: 0;
+  height: 0;
+  float: right;
+  margin-top: 3px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 12px solid #c1c1c1;
+}
+
+h5.resp-tab-active span.resp-arrow {
+  border: none;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 12px solid #fff;
+}
+.resp-vtabs .resp-tabs-list li {
+    width: 21%;
+    text-align: left;
+}
+
+/*-----------Accordion styles-----------*/
+
+h5.resp-tab-active { 
+	background: #00bcd6!important;
+    color: #fff!important;
+}
+h5.resp-accordion:hover {
+    background: #00bcd6;
+    color: #fff;
+}
+
+.resp-easy-accordion h5.resp-accordion { display: block; }
+
+.resp-easy-accordion .resp-tab-content { border: 1px solid #c1c1c1; }
+
+.resp-easy-accordion .resp-tab-content:last-child { border-bottom: 1px solid #c1c1c1 !important; }
+
+.resp-jfit {
+  width: 100%;
+  margin: 0px;
+}
+
+.resp-tab-content-active { display: block; }
+
+h5.resp-accordion:first-child { border-top: 1px solid #c1c1c1 !important; }
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+@media only screen and (max-width: 1600px) {
+
+    @media only screen and (max-width: 1440px) {
+        .resp-vtabs .resp-tabs-list li {
+            padding: 2em 0 !important;
+        }
+
+    }
+    @media only screen and (max-width: 1280px) {
+        .resp-vtabs .resp-tabs-list li {
+            padding: 1.7em 0 !important;
+        }
+    }
+    @media only screen and (max-width: 1024px) {
+        .resp-tab-content {
+            padding: 0 0em;
+        }
+    }
+    @media only screen and (max-width: 900px) {
+    }
+    @media only screen and (max-width: 768px) {
+        h5.resp-accordion i {
+            padding-right: 1em;
+        }
+
+        ul.resp-tabs-list {
+            display: none;
+        }
+
+        h5.resp-accordion {
+            display: block;
+            font-size: 1.2em;
+        }
+
+        .resp-vtabs .resp-tab-content {
+            border: 1px solid #C1C1C1;
+        }
+
+        .resp-vtabs .resp-tabs-container {
+            border: none;
+            float: none;
+            width: 100%;
+            min-height: initial;
+            clear: none;
+        }
+
+        .resp-accordion-closed {
+            display: none !important;
+        }
+
+        .resp-vtabs .resp-tab-content:last-child {
+            border-bottom: 1px solid #c1c1c1 !important;
+        }
+
+        .resp-vtabs .resp-tabs-container {
+            padding: 0em 0 0;
+        }
+
+        h5.resp-accordion {
+            padding: 16px 30px;
+        }
+
+        h5.resp-tab-active {
+            padding: 16px 30px !important;
+        }
+    }
+    @media (max-width: 384px) {
+        .resp-tab-content {
+            padding: 1em;
+        }
+    }
+    @media (max-width: 320px) {
+        h5.resp-accordion {
+            font-size: 1em;
+        }
+    }
+}
