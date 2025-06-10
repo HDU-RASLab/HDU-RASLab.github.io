@@ -13,3 +13,5 @@
 2025年6月4日 - caoli - Update index.html （Robots添加中科深谷移动机械臂）
 2025年6月4日 - caoli - Update index.html （Robots添加UR5e移动机械臂）
 2025年6月4日 - caoli - Update index.html （Robots添加JAKA Zu5移动机械臂）
+
+2025年6月10日 - caoli - Update publication.html （添加2025年出版）
