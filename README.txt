@@ -15,3 +15,5 @@
 2025年6月4日 - caoli - Update index.html （Robots添加JAKA Zu5移动机械臂）
 
 2025年6月10日 - caoli - Update publication.html （添加2025年出版）
+
+2025年6月16日 - caoli - Update memory.html （添加2022级同学毕业合照）
