@@ -1,7 +1,7 @@
 github项目地址 https://github.com/HDU-RASLab/HDU-RASLab.github.io
 实验室网站 https://hdu-raslab.github.io/index.html
 
-2024年11月26日 - caoli - Update people.html （添加2024级研究生）
+2024年11月26日 - caoli - Update people.html （添加2024级在读研究生）
 2024年11月26日 - caoli - Update people.html （添加已毕业本科生）
 2024年11月26日 - caoli - Update people.html （添加在读本科生）
 
@@ -20,3 +20,5 @@ github项目地址 https://github.com/HDU-RASLab/HDU-RASLab.github.io
 2025年6月10日 - caoli - Update publication.html （添加2025年出版）
 
 2025年6月16日 - caoli - Update memory.html （添加2022级同学毕业合照）
+
+2025年7月26日 - caoli - Update people.html （更新2022级已毕业研究生）
