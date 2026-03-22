@@ -24,3 +24,5 @@ github项目地址 https://github.com/HDU-RASLab/HDU-RASLab.github.io
 2025年7月26日 - caoli - Update people.html （更新2022级已毕业研究生）
 
 2025年12月16日 - Jinhemu - Update people.html （添加2025级在读研究生）
+
+2026年3月20日 - caoli - Update index.html （Robots添加奶龙机器人，图片尺寸调整）
