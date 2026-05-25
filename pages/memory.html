@@ -274,9 +274,54 @@
 				</div>
 			</div>
 
+			<div class="container">
+				<p>2023级同学毕业合照</p>
+				<div id="slide7" class="owl-carousel">
+					<div class="slide-info">
+						<img src="../images/memory/2023class/合照1.jpg" alt="" class="memory-image-style">
+					</div>
+					<div class="slide-info">
+						<img src="../images/memory/2023class/合照2.jpg" alt="" class="memory-image-style">
+					</div>
+					<div class="slide-info">
+						<img src="../images/memory/2023class/合照3.jpg" alt="" class="memory-image-style">
+					</div>
+					<div class="slide-info">
+						<img src="../images/memory/2023class/合照4.jpg" alt="" class="memory-image-style">
+					</div>
+					<div class="slide-info">
+						<img src="../images/memory/2023class/合照5.jpg" alt="" class="memory-image-style">
+					</div>
+					<div class="slide-info">
+						<img src="../images/memory/2023class/合照6.jpg" alt="" class="memory-image-style">
+					</div>
+					<div class="slide-info">
+						<img src="../images/memory/2023class/合照7.jpg" alt="" class="memory-image-style">
+					</div>
+					<div class="slide-info">
+						<img src="../images/memory/2023class/合照8.jpg" alt="" class="memory-image-style">
+					</div>
+					<div class="slide-info">
+						<img src="../images/memory/2023class/合照9.jpg" alt="" class="memory-image-style">
+					</div>
+					<div class="slide-info">
+						<img src="../images/memory/2023class/合照10.jpg" alt="" class="memory-image-style">
+					</div>
+					<div class="slide-info">
+						<img src="../images/memory/2023class/合照11.jpg" alt="" class="memory-image-style">
+					</div>
+					<div class="slide-info">
+						<img src="../images/memory/2023class/合照12.jpg" alt="" class="memory-image-style">
+					</div>
+					<div class="slide-info">
+						<img src="../images/memory/2023class/合照13.jpg" alt="" class="memory-image-style">
+					</div>
+				</div>
+			</div>
+
 			<h3 class="w3ls-title contact-w3ls">Daily Record</h3>
 			<div class="container">
-				<div id="slide7" class="owl-carousel">
+				<div id="slide8" class="owl-carousel">
 
 					<div class="slide-info" >
 						<img src="../images/memory/Daily/2021-1201.jpg" style="width:300px;"  alt="" class="memory-image-style">
@@ -294,7 +339,7 @@
 			</div>
 
 			<div class="container">
-				<div id="slide8" class="owl-carousel">
+				<div id="slide9" class="owl-carousel">
 
 					<div class="slide-info" >
 						<img src="../images/memory/Daily/2019-1.jpg" style="width:520px;"  alt="" class="memory-image-style">
@@ -328,7 +373,7 @@
 			</div>
 
 			<div class="container">
-				<div id="slide9" class="owl-carousel">
+				<div id="slide10" class="owl-carousel">
 					<div class="slide-info" style="padding: 0 30px 0 0">
 						<img src="../images/memory/202007/六教装修.png" alt="" class="memory-image-style">
 					</div>
@@ -406,7 +451,7 @@
 
 			<!-- <p>机械臂调试</p> -->
 			<div class="container">
-				<div id="slide10" class="owl-carousel">
+				<div id="slide11" class="owl-carousel">
 					<div class="slide-info">
 						<img src="../images/memory/Manipulator/1.jpg" style="width:480px; height:360px;" alt="" class="memory-image-style">
 						<img src="../images/memory/Manipulator/2.jpg" style="width:480px; height:360px;" alt="" class="memory-image-style">
@@ -420,7 +465,7 @@
 				
 			<!-- <p>本科生学习</p> -->
 			<div class="container">
-				<div id="slide11" class="owl-carousel">
+				<div id="slide12" class="owl-carousel">
 					<div class="slide-info">
 						<img src="../images/memory/Undergraduate/1.jpg" style="width:480px; height:360px;" alt="" class="memory-image-style">
 						<img src="../images/memory/Undergraduate/2.jpg" style="width:480px; height:360px;" alt="" class="memory-image-style">
@@ -435,7 +480,7 @@
 <h3 class="w3ls-title contact-w3ls">Robotics Challenge of HDU-ITMO</h3>
 			<div class="container">
 				<p>第三届大学生智能机器人竞赛</p>
-				<div id="slide12" class="owl-carousel">
+				<div id="slide13" class="owl-carousel">
 					<div class="slide-info">
 						<img src="../images/memory/2024competition/001.jpg" alt="" class="memory-image-style">
 					</div>
@@ -581,6 +626,16 @@
 			});
 			
 			$('#slide12').owlCarousel({
+				beforeInit: function(elem)
+				{
+					random(elem);
+				},
+				autoPlay:3000,
+				items : 1,
+				stopOnHover:true,
+			});
+
+			$('#slide13').owlCarousel({
 				beforeInit: function(elem)
 				{
 					random(elem);
